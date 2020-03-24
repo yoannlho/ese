@@ -25,16 +25,107 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: top;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(25px + 4vmin);
+  font-weight: bold;
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+/*  color: #61dafb;*/
+  color: #000000;
 }
-/*
+
+
+/*##################CSS code#################*/
+
+ul { 
+    margin: 0;  
+    padding: 0;  
+}  
+  
+ul.menu {  
+    height: 400px;  
+    border-left: 1px solid rgba(0,0,0,0.3);  
+    border-right: 1px solid rgba(255,255,255,0.3);  
+    float:center;  
+}  
+  
+ul.menu li {  
+    list-style: none;  
+    float:left;  
+    height: 79px;  
+    text-align: center;  
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );  
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);  
+}  
+  
+ul li a {  
+    display: block;  
+    padding: 0 80px;
+    margin-left: 40px;  
+    border-left: 1px solid rgba(255,255,255,0.1);  
+    border-right: 1px solid rgba(0,0,0,0.1);  
+    text-align: center;  
+    line-height: 79px;
+    font-size: 20px;  
+    background : -webkit-gradient(linear, left top, left bottombottom, from(rgb(168,168,168)), to(rgb(69,69,69)));  
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));  
+    -webkit-transition-property: background;  
+    -webkit-transition-duration: 700ms;  
+    -moz-transition-property: background;  
+    -moz-transition-duration: 700ms;  
+    }  
+  
+ul li a:hover {  
+    background: transparent none;  
+}  
+  
+ul li.active a{  
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );  
+    background: -moz-radial-gradient(center 800px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);  
+
+}  
+
+
+/*##################first menu basic######################*/
+
+ /* Style the navbar
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+ Navbar links
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  width: 100%;
+  text-decoration: none;
+}
+
+ Page content
+.content {
+  padding: 26px;
+}
+
+ The sticky class is added to the navbar with JS when it reaches its scroll position
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0)
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
