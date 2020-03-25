@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './ese.svg';
 import './App.css';
-/*import Search from './Components/Search' */
+import Search from './Components/Search'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+	<Search/>
 	<img src={logo} className="App-logo" alt="logo" />
 	    <div class="wrapper">  
 		    <div class="container"><ul class="menu" rel="sam1">  
