@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './ese.svg';
 import './App.css';
+/*import Search from './Components/Search' */
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
   );
 }
 
+/* ############# Formulaire non fonctionnelle###############" */
 
 /*
 class NameForm extends React.Component {
@@ -68,6 +70,6 @@ class NameForm extends React.Component {
   }
 }
 */
-export default App;
 
+export default App;
 
