@@ -1,18 +1,18 @@
 // Components/Search.js
 
 import React from 'react'
-import { View, TextInput, Button } from '@material-ui/core';
+import { TextField, Button } from '@material-ui/core';
 
 
-class Search extends React.Component {
-    render() {
-        return (
-      	<View>
-           <TextInput placeholder="Plus d'info ici"/>
+const Search = () => {
+    return (
+        <div>
+	
+           <TextField placeholder="Plus d'info ici"/>
            <Button title='liens' onPress={() => {}}/>
-     	</View>
+	</div>
         )
-    }
+   
 }
 
-export default Search
+export default Search;
