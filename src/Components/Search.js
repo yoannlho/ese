@@ -1,7 +1,7 @@
 // Components/Search.js
 
 import React from 'react'
-import { View, TextInput, Button } from 'react-native'
+import { View, TextInput, Button } from '@material-ui/core';
 
 
 class Search extends React.Component {
