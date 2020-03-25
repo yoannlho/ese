@@ -2,15 +2,27 @@
 
 import React from 'react'
 import { Button } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
+const useStyles = makeStyles(theme => ({
+  margin: {
+    margin: theme.spacing(1),
+  },
+  extendedIcon: {
+    marginRight: theme.spacing(1),
+  },
+}));
 
-const Search = () => {
+export default function ButtonSizes() {
+  const classes = useStyles();
+
     return (
-     	<Button variant="contained" color="primary">
+	<div>
+     	<Button variant="contained" size="medium" color="primary" className={classes.margin}>
       		Hello World
     	</Button>
+	</div>
         )
    
 }
 
-export default Search;
