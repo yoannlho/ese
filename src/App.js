@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-	<Search/>
 	<img src={logo} className="App-logo" alt="logo" />
 	    <div class="wrapper">  
 		    <div class="container"><ul class="menu" rel="sam1">  
@@ -22,6 +21,7 @@ function App() {
           <p>
             ESIEA SECURE EDITION 2020
           </p>
+	  <Search/>
           <a
            className="App-link"
            href="https://www.esiea.fr/esiea-secure-edition-2017/"
