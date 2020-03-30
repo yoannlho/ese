@@ -18,7 +18,7 @@ export default function ButtonSizes() {
 
     return (
 	<div>
-     	<Button onclick="getElementById('demo').innerHTML=Date()" variant="contained" size="medium" color="primary" className={classes.margin}>
+     	<Button  variant="contained" size="medium" color="primary" className={classes.margin}>
     	Plus d'info ici
 	</Button>
 	</div>
