@@ -18,7 +18,10 @@ export default function ButtonSizes() {
 
     return (
 	<div>
-     	<Button  variant="contained" size="medium" color="primary" className={classes.margin}>
+     	<Button  onClick={() => {
+        window.location = "https://www.esiea.fr/esiea-secure-edition-2017"
+      }}
+variant="contained" size="medium" color="primary" className={classes.margin}>
     	Plus d'info ici
 	</Button>
 	</div>
