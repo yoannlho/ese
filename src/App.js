@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './ese.svg';
 import './App.css';
 import Search from './Components/Search'
+import Link from './Components/Link'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             ESIEA SECURE EDITION 2020
           </p>
 	  <Search/>
+	  <Link/>
           <a
            className="App-link"
            href="https://www.esiea.fr/esiea-secure-edition-2017/"
