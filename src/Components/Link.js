@@ -9,7 +9,7 @@ export default function ButtonLink() {
       component="ButtonSizes"
       variant="body2"
       onClick={() => {
-        console.info("I'm a button.");
+        window.location = "https://www.esiea.fr/esiea-secure-edition-2017/";
       }}
     >
       Button Link
