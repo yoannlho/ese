@@ -18,8 +18,7 @@ export default function ButtonSizes() {
 
     return (
 	<div>
-     	<Button variant="contained" size="medium" color="primary" className={classes.margin}>
-      		Plus d'info ici
+     	<Button variant="contained" size="medium" color="primary" className={classes.margin} onclick="link()">Plus d'info ici
     	</Button>
 	</div>
         )
