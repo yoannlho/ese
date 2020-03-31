@@ -2,21 +2,31 @@ import React from 'react';
 import logo from './ese.svg';
 import './App.css';
 import Search from './Components/Search'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 function App() {
   return (
+<Router>
     <div className="App">
       <header className="App-header">
 	<img src={logo} className="App-logo" alt="logo" />
 	    <div class="wrapper">  
 		    <div class="container"><ul class="menu" rel="sam1">  
-   			 <li class="active"><a href="#">Qu'est ce que c'est</a></li>  
+   			 <li class="active">
+			<Link to="/">Qu'est ce que c"est</Link></li>  
     			 <li><a href="#">Atelier</a></li>
    			 <li><a href="#">Intervenant</a></li>
    			 <li><a href="#">Contacts</a></li>
    					  </ul>
    		    </div>
     	   </div>
+	
 
           <p>
             ESIEA SECURE EDITION 2020
@@ -32,6 +42,7 @@ function App() {
           </a>
       </header>
     </div>
+</Router>
   );
 }
 
