@@ -1,48 +1,45 @@
 import React from 'react';
 import logo from './ese.svg';
 import './App.css';
-import Search from './Components/Search'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-
+import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
 
 function App() {
   return (
-<Router>
-    <div className="App">
-      <header className="App-header">
-	<img src={logo} className="App-logo" alt="logo" />
-	    <div class="wrapper">  
-		    <div class="container"><ul class="menu" rel="sam1">  
-   			 <li class="active">
-			<Link to="/">Qu'est ce que c"est</Link></li>  
-    			 <li><Link to="/">Atelier</Link></li>
-   			 <li><Link to="/">Intervenant</Link></li>
-   			 <li><Link to="/">Contacts</Link></li>
-   					  </ul>
-   		    </div>
-    	   </div>
-	
-
-          <p>
-            ESIEA SECURE EDITION 2020
-          </p>
-	  <Search/>
-          <a
-           className="App-link"
-           href="https://www.esiea.fr/esiea-secure-edition-2017/"
-           target="_blank"
-           rel="noopener noreferrer"
-          >
-            Plus d'info sur le site ESIEA
-          </a>
-      </header>
-    </div>
-</Router>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+            <div class="wrapper">  
+              <div class="container">
+                <ul class="menu" rel="sam1">  
+                  <li class="active"><Link to="/">Qu'est ce que c"est</Link></li>  
+                  <li><Link to="/">Atelier</Link></li>
+                  <li><Link to="/">Intervenant</Link></li>
+                  <li><Link to="/">Contacts</Link></li>
+                </ul>
+              </div>
+            </div>
+              <p>
+                  ESIEA SECURE EDITION 2020
+              </p>
+              <OutsideLinkButton urlLink="https://www.esiea.fr/esiea-secure-edition-2017/" labelButton="Plus d'info ici"/>
+              <a
+                className="App-link"
+                href="https://www.esiea.fr/esiea-secure-edition-2017/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Plus d'info sur le site ESIEA
+              </a>
+          </header>
+      </div>
+    </Router>
   );
 }
 
