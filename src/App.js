@@ -20,9 +20,9 @@ function App() {
 		    <div class="container"><ul class="menu" rel="sam1">  
    			 <li class="active">
 			<Link to="/">Qu'est ce que c"est</Link></li>  
-    			 <li><a href="#">Atelier</a></li>
-   			 <li><a href="#">Intervenant</a></li>
-   			 <li><a href="#">Contacts</a></li>
+    			 <li><Link to="/">Atelier</Link></li>
+   			 <li><Link to="/">Intervenant</Link></li>
+   			 <li><Link to="/">Contacts</Link></li>
    					  </ul>
    		    </div>
     	   </div>
