@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './ese.svg';
+import logo from './picture/ese.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
