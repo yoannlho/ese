@@ -38,7 +38,7 @@ function App() {
               Plus d'info sur le site ESIEA
             </a> */}
         </header>
-        <Switch>
+        {/* <Switch>
         <Route path="/Atelier">
           <Atelier />
         </Route>
@@ -51,7 +51,7 @@ function App() {
         <Route path="/Contacts">
           <Contacts />
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   </Router>
   );
