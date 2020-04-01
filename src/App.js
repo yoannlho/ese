@@ -29,14 +29,14 @@ function App() {
                   ESIEA SECURE EDITION 2020
               </p>
               <OutsideLinkButton urlLink="https://www.esiea.fr/esiea-secure-edition-2017/" labelButton="Plus d'info ici"/>
-              <a
+              {/* <a
                 className="App-link"
                 href="https://www.esiea.fr/esiea-secure-edition-2017/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Plus d'info sur le site ESIEA
-              </a>
+              </a> */}
           </header>
       </div>
     </Router>
