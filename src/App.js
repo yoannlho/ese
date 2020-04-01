@@ -8,6 +8,10 @@ import {
   Link
 } from "react-router-dom";
 import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
+import Atelier from './components/Atelier';
+import Intervenant from './components/Intervenant';
+import Contacts from './components/Contacts';
+
 
 function App() {
   return (
