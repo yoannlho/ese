@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import App from '../App';
-import Atelier from './components/Atelier';
-import Intervenant from './components/Intervenant';
-import Contacts from './components/Contacts';
+import Atelier from '../components/Atelier';
+import Intervenant from '../components/Intervenant';
+import Contacts from '../components/Contacts';
 
 /**
  * All routes go here.
