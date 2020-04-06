@@ -8,6 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
+import routes from './Route/routes';
 // import Atelier from './components/Atelier';
 // import Intervenant from './components/Intervenant';
 // import Contacts from './components/Contacts';
@@ -17,6 +18,7 @@ function App() {
   return (
   <Router>
     <div className="App">
+      <routes />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
           <div class="wrapper">  
