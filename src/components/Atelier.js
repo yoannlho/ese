@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './picture/ese.svg';
-import './App.css';
+import logo from '../picture/ese.svg';
+import '../App.css';
 import {
   BrowserRouter as Router,
   Switch,
