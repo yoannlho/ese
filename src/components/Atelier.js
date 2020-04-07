@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from '../picture/ese.svg';
 import '../App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
 //import routes from './Route/routes';
 // import Atelier from './components/Atelier';
 // import Intervenant from './components/Intervenant';
@@ -30,6 +30,7 @@ function Atelier() {
               </ul>
             </div>
           </div>
+          <p>Atelier</p>
         </header>
     </div>
  </Router>
