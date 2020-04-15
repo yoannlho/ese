@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Error404 from './components/Error404';
 import Landing from './components/Landing';
+import Atelier from './components/Atelier';
 import logo from './picture/ese.svg';
 import './App.css';
 //import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
@@ -14,6 +15,7 @@ function App() {
                   <BrowserRouter>
                     <Switch>
                       <Route exact path="/" component={ Landing }/>
+                      <Route exact path="/" component={ Atelier }/>
 
                       <Route component={ Error404 }/>
                     </Switch>
