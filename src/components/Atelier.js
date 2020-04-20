@@ -19,8 +19,11 @@ const Atelier = () => {
                     </div>
                 </div>
                 <p>
-                    Atelier
-                </p>
+                    Atelier : 
+                      1) Workshop sur CyberRange (CTF guidé avec présentation des outils)
+                      2) Démo OSINT
+
+                      Il est prévu que ces deux ateliers se déroulent en ligne via la plateforme de vision conférence jitsy.                </p>
             </header>
     </div>
   )
