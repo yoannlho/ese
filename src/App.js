@@ -15,7 +15,7 @@ function App() {
                   <BrowserRouter>
                     <Switch>
                       <Route exact path="/" component={ Landing }/>
-                      <Route exact path="/" component={ Atelier }/>
+                      <Route exact path="/Atelier" component={ Atelier }/>
 
                       <Route component={ Error404 }/>
                     </Switch>
