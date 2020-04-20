@@ -18,6 +18,9 @@ const Intervenant = () => {
                             </ul>
                         </div>
                     </div>
+                    <p> 
+                        Intervenant 
+                    </p>
             </header>
         </div>
     )
