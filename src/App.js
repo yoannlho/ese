@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import Atelier from './components/Atelier';
 import logo from './picture/ese.svg';
 import './App.css';
+import Intervenant from './components/Intervenant';
 //import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                     <Switch>
                       <Route exact path="/" component={ Landing }/>
                       <Route exact path="/Atelier" component={ Atelier }/>
+                      <Route exact path="/Intervenant" component={ Intervenant }/>
 
                       <Route component={ Error404 }/>
                     </Switch>
