@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
+import FormControl from '@material-ui/core/FormControl';
+import { InputLabel, FormHelperText } from '@material-ui/core';
 
 const Atelier = () => {
   return (
@@ -18,6 +20,11 @@ const Atelier = () => {
                         </ul>
                     </div>
                 </div>
+                <FormControl>
+                  <InputLabelabel htmlFor="my-input">Email address</InputLabelabel>
+                  <Input id="my-input" aria-describedby="my-helper-text" />
+                  <FormHelperTexterText id="my-helper-text">Votre email ne sera pas partagé</FormHelperTexterText>
+                </FormControl>
                 <p>
                     Atelier :                   
                 </p>
