@@ -3,7 +3,7 @@ import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
-import { InputLabel, FormHelperText } from '@material-ui/core';
+import { InputLabel, FormHelperText, Input } from '@material-ui/core';
 
 const Atelier = () => {
   return (
@@ -21,9 +21,9 @@ const Atelier = () => {
                     </div>
                 </div>
                 <FormControl>
-                  <InputLabelabel htmlFor="my-input">Email address</InputLabelabel>
+                  <InputLabel htmlFor="my-input">Email address</InputLabel>
                   <Input id="my-input" aria-describedby="my-helper-text" />
-                  <FormHelperTexterText id="my-helper-text">Votre email ne sera pas partagé</FormHelperTexterText>
+                  <FormHelperText id="my-helper-text">We'll never share your email.</FormHelperText>
                 </FormControl>
                 <p>
                     Atelier :                   
