@@ -2,9 +2,9 @@ import React from 'react';
 import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
-//import FormControl from '@material-ui/core/FormControl';
+import FormControl from '@material-ui/core/FormControl';
 import { InputLabel, FormHelperText, Input } from '@material-ui/core';
-import FormControl from './formControl/FormControl';
+//import FormControl from './formControl/FormControl';
 
 const Atelier = () => {
   return (
