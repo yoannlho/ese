@@ -4,6 +4,12 @@ import '../App.css';
 import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
 import { InputLabel, FormHelperText, Input } from '@material-ui/core';
+import { Provider } from 'react-redux';
+import { Values } from 'redux-form-website-template';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MaterialUiForm from './MaterialUiForm';
+
 //import FormControl from './formControl/FormControl';
 
 const Atelier = () => {
