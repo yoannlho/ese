@@ -3,11 +3,11 @@ import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
-import { InputLabel, FormHelperText, Input } from '@material-ui/core';
-import { Provider } from 'react-redux';
+import { InputLabel, FormHelperText, Input, ThemeProvider } from '@material-ui/core';
+//import { Provider } from 'react-redux';
 import { Values } from 'redux-form-website-template';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+//import getMuiTheme from 'material-ui/core/styles/getMuiTheme';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import MaterialUiForm from './formControl/MaterialUiForm';
 
 //import FormControl from './formControl/FormControl';
@@ -28,15 +28,15 @@ const Atelier = () => {
                     </div>
                 </div>
                 <p>
-                <Provider>
-                  <MuiThemeProvider muiTheme={getMuiTheme()}>
+                <ThemeProvider>
+                  <MuiThemeProvider>//muiTheme={}>
                     <div style={{ padding: 15 }}>
                       <h2>Material UI Example</h2>
                         {/* <MaterialUiForm onSubmit={showResults} /> */}
                           <Values form="MaterialUiForm" />
                     </div>
                   </MuiThemeProvider>
-                </Provider>
+                </ThemeProvider>
                   <FormControl>
                     <InputLabel htmlFor="my-input">Email address</InputLabel>
                     <Input id="my-input" aria-describedby="my-helper-text" />
