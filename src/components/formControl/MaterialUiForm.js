@@ -1,12 +1,13 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-import TextField from 'material-ui/TextField';
-import { RadioButton, RadioButtonGroup } from 'material-ui/RadioButton';
-import Checkbox from 'material-ui/Checkbox';
-import SelectField from 'material-ui/SelectField';
-import MenuItem from 'material-ui/MenuItem';
+import TextField from '@material-ui/core/TextField';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import Checkbox from '@material-ui/core/Checkbox';
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
 import asyncValidate from './asyncValidate';
-import validate from './validate';
+//import validate from './validate';
 
 const renderTextField = (
   { input, label, meta: { touched, error }, ...custom },
@@ -29,7 +30,7 @@ const renderCheckbox = ({ input, label }) => (
 );
 
 const renderRadioGroup = ({ input, ...rest }) => (
-  <RadioButtonGroup
+  <RadioGroup
     {...input}
     {...rest}
     valueSelected={ input.value }
@@ -40,7 +41,7 @@ const renderRadioGroup = ({ input, ...rest }) => (
 const renderSelectField = (
   { input, label, meta: { touched, error }, children, ...custom },
 ) => (
-  <SelectField
+  <Select
     floatingLabelText={label}
     errorText={ touched && error }
     { ...input }
@@ -69,8 +70,8 @@ const MaterialUiForm = props => {
       </div>
       <div>
         <Field name="sex" component={ renderRadioGroup }>
-          <RadioButton value="male" label="male" />
-          <RadioButton value="female" label="female" />
+          <Radio value="male" label="male" />
+          <Radio value="female" label="female" />
         </Field>
       </div>
       <div>
@@ -108,6 +109,6 @@ const MaterialUiForm = props => {
 
 export default reduxForm({
   form: 'MaterialUiForm', // a unique identifier for this form
-  validate,
+  //validate,
   asyncValidate,
 })(MaterialUiForm);
