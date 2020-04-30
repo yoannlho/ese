@@ -7,6 +7,7 @@ import { InputLabel, FormHelperText, Input, ThemeProvider } from '@material-ui/c
 //import { Provider } from 'react-redux';
 //import getMuiTheme from 'material-ui/core/styles/getMuiTheme';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import RadioButtonsGroup from './formControl/RadioGroup';
 //import MaterialUiForm from './formControl/MaterialUiForm';
 
 //import FormControl from './formControl/FormControl';
@@ -27,12 +28,16 @@ const Atelier = () => {
                     </div>
                 </div>
                 <p>
+                    Inscription                  
+                </p>
+                <p>
                   <FormControl>
                     <InputLabel htmlFor="my-input">Email address</InputLabel>
                     <Input id="my-input" aria-describedby="my-helper-text" />
                     <FormHelperText id="my-helper-text">We'll never share your email.</FormHelperText>
                   </FormControl>
                 </p>
+                <p><RadioButtonsGroup/></p>
                 <p>
                     Atelier :                   
                 </p>
