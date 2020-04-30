@@ -8,6 +8,7 @@ import { InputLabel, FormHelperText, Input, ThemeProvider } from '@material-ui/c
 //import getMuiTheme from 'material-ui/core/styles/getMuiTheme';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import RadioButtonsGroup from './formControl/RadioGroup';
+import BasicTextFields from './formControl/NameForm';
 //import MaterialUiForm from './formControl/MaterialUiForm';
 
 //import FormControl from './formControl/FormControl';
@@ -28,7 +29,8 @@ const Atelier = () => {
                     </div>
                 </div>
                 <p>
-                    Inscription                  
+                    Inscription
+                    <BasicTextFields/>                  
                 </p>
                 <p>
                   <FormControl>
