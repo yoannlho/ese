@@ -20,7 +20,7 @@
 .App-header {
  /* background-color: #282c34;*/
   background-image:url(picture/background6.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-color: #000000;
   min-height: 90vh;
   line-height: 100px;
