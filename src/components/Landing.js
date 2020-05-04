@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../picture/ese.svg';
-//import './App.css';
 import { Link } from "react-router-dom";
 import OutsideLinkButton from './outsideLinkButton/OutsideLinkButton';
 
