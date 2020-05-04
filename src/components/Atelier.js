@@ -30,31 +30,37 @@ const Atelier = () => {
                         </ul>
                     </div>
                 </div>
-                <span>
-                    Inscription
-                    <BasicTextFields/>                  
-                </span>
-                <p>
-                  <FormControl>
-                    <InputLabel htmlFor="my-input">Email address</InputLabel>
-                    <Input id="my-input" aria-describedby="my-helper-text" />
-                    <FormHelperText id="my-helper-text">We'll never share your email.</FormHelperText>
-                  </FormControl>
-                </p>
-                <p><RadioButtonsGroup/></p>
-                <p><ContainedButtons/></p>
-                <p>
+                  <span>
+                    Inscription                  
+                  </span>
+                  <p>
+                    <BasicTextFields/>
+                  </p>
+                  <p>
+                    <FormControl>
+                      <InputLabel htmlFor="my-input">Email address</InputLabel>
+                      <Input id="my-input" aria-describedby="my-helper-text" />
+                      <FormHelperText id="my-helper-text">We'll never share your email.</FormHelperText>
+                    </FormControl>
+                  </p>
+                  <p>
+                    <RadioButtonsGroup/>
+                  </p>
+                  <p>
+                    <ContainedButtons/>
+                  </p>
+                  <p>
                     Atelier :                   
-                </p>
-                <p>
-                  1) Workshop sur CyberRange (CTF guidé avec présentation des outils)
-                </p>
-                <p>
-                  2) Démo OSINT
-                </p>
-                <p>
-                  Il est prévu que ces deux ateliers se déroulent en ligne via la plateforme de vision conférence jitsy.
-                </p>
+                  </p>
+                  <p>
+                    1) Workshop sur CyberRange (CTF guidé avec présentation des outils)
+                  </p>
+                  <p>
+                    2) Démo OSINT
+                  </p>
+                  <p>
+                    Il est prévu que ces deux ateliers se déroulent en ligne via la plateforme de vision conférence jitsy.
+                  </p>
             </header>
     </div>
   )
