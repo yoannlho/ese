@@ -30,10 +30,10 @@ const Atelier = () => {
                         </ul>
                     </div>
                 </div>
-                <p>
+                <span>
                     Inscription
                     <BasicTextFields/>                  
-                </p>
+                </span>
                 <p>
                   <FormControl>
                     <InputLabel htmlFor="my-input">Email address</InputLabel>
