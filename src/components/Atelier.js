@@ -4,6 +4,9 @@ import logo from '../picture/ese.svg';
 import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
 import { InputLabel, FormHelperText, Input } from '@material-ui/core';
+import RadioButtonsGroup from './formControl/RadioGroup';
+import BasicTextFields from './formControl/NameForm';
+import ContainedButtons from './formControl/Button';
 
 const Atelier = () => {
   return (
