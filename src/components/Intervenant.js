@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
+import AlignItemsList from './listItem/AlignItemsList';
 
 const Intervenant = () => {
     return (
@@ -18,9 +19,10 @@ const Intervenant = () => {
                             </ul>
                         </div>
                     </div>
-                    <p> 
+                    <h3> 
                         Intervenant 
-                    </p>
+                    </h3>
+                    <AlignItemsList/>
             </header>
         </div>
     )
