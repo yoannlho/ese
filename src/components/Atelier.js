@@ -7,6 +7,7 @@ import { InputLabel, FormHelperText, Input } from '@material-ui/core';
 import RadioButtonsGroup from './formControl/RadioGroup';
 import BasicTextFields from './formControl/NameForm';
 import ContainedButtons from './formControl/Button';
+import './filecss/AtelierStyle.css';
 
 const Atelier = () => {
   return (
