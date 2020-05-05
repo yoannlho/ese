@@ -29,7 +29,7 @@ const AlignItemsList = () => {
           <Avatar alt="Remy Sharp" src="" />
         </ListItemAvatar>
         <ListItemText
-          primary="Brunch this weekend?"
+          primary="Jean-pierre AUBIN"
           secondary={
             <React.Fragment>
               <Typography
@@ -38,7 +38,7 @@ const AlignItemsList = () => {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Ali Connors
+                Ingénieur de recherche en Cybersécurité
               </Typography>
             </React.Fragment>
           }
@@ -50,7 +50,7 @@ const AlignItemsList = () => {
           <Avatar alt="Travis Howard" src="" />
         </ListItemAvatar>
         <ListItemText
-          primary="Summer BBQ"
+          primary="..."
           secondary={
             <React.Fragment>
               <Typography
@@ -59,7 +59,7 @@ const AlignItemsList = () => {
                 className={classes.inline}
                 color="textPrimary"
               >
-                to Scott, Alex, Jennifer
+                Expert en test d'intrusion
               </Typography>
             </React.Fragment>
           }
@@ -71,7 +71,7 @@ const AlignItemsList = () => {
           <Avatar alt="Cindy Baker" src="" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="..."
           secondary={
             <React.Fragment>
               <Typography
@@ -80,7 +80,28 @@ const AlignItemsList = () => {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Sandra Adams
+                Expert en réponse sur incident
+              </Typography>
+            </React.Fragment>
+          }
+        />
+        </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Travis Howard" src="" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="..."
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                Consultant en sécurité informatique
               </Typography>
             </React.Fragment>
           }
