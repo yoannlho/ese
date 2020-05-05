@@ -3,17 +3,7 @@ import logo from '../picture/ese.svg';
 //import '../App.css';
 import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
-import { InputLabel, FormHelperText, Input, ThemeProvider } from '@material-ui/core';
-//import { Provider } from 'react-redux';
-//import getMuiTheme from 'material-ui/core/styles/getMuiTheme';
-import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
-import RadioButtonsGroup from './formControl/RadioGroup';
-import BasicTextFields from './formControl/NameForm';
-import ContainedButtons from './formControl/Button';
-//import MaterialUiForm from './formControl/MaterialUiForm';
-import AtelierStyle from './file.css/AtelierStyle.css';
-
-//import FormControl from './formControl/FormControl';
+import { InputLabel, FormHelperText, Input } from '@material-ui/core';
 
 const Atelier = () => {
   return (
