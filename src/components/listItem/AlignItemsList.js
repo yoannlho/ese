@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
     maxWidth: '36ch',
-    backgroundColor: theme.palette.background.paper,
+    //backgroundColor: theme.palette.background.paper,
   },
   inline: {
-    display: 'inline',
+    display: 'block',
   },
 }));
 
@@ -40,7 +40,6 @@ const AlignItemsList = () => {
               >
                 Ali Connors
               </Typography>
-              {" — I'll be in your neighborhood doing errands this…"}
             </React.Fragment>
           }
         />
@@ -62,7 +61,6 @@ const AlignItemsList = () => {
               >
                 to Scott, Alex, Jennifer
               </Typography>
-              {" — Wish I could come, but I'm out of town this…"}
             </React.Fragment>
           }
         />
@@ -84,7 +82,6 @@ const AlignItemsList = () => {
               >
                 Sandra Adams
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
             </React.Fragment>
           }
         />
