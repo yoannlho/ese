@@ -22,7 +22,7 @@ const Contacts = () => {
                     <h3> 
                         Contacts 
                     </h3>
-                    <MinHeightTextarea/>
+                    <MinHeightTextarea label="minimum height" rowsMin={3} placeholder="Minimum 3 rows"/>
             </header>
         </div>
     )
