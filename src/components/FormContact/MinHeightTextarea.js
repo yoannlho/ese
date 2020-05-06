@@ -1,8 +1,13 @@
 import React from 'react';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
-const MinHeightTextarea = () => {
-  return <TextareaAutosize aria-label="minimum height" rowsMin={3} placeholder="Minimum 3 rows" />;
+const MinHeightTextarea = (props) => {
+    const {label, rowsMin, placeholder} = props;
+        return <TextareaAutosize 
+            aria-label={ label } 
+            rowsMin={ rowsMin } 
+            placeholder={ placeholder } 
+        />;
 }
 
 export default MinHeightTextarea;
