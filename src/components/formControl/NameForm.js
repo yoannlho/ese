@@ -11,13 +11,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const BasicTextFields = () => {
+const BasicTextFields = (props) => {
   const classes = useStyles();
+  const {labelname, labelfirstname} = props;
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-      <TextField id="standard-basic" label="Nom" />
-      <TextField id="filled-basic" label="Prénom" />
+      <TextField id="standard-basic" label={ labelname } />
+      <TextField id="filled-basic" label={ labelfirstname } />
     </form>
   );
 }
