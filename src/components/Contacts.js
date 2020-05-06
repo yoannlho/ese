@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../picture/ese.svg';
 import '../App.css';
 import { Link } from "react-router-dom";
+import MinHeightTextarea from './FormContact/MinHeightTextarea';
 
 const Contacts = () => {
     return (
@@ -18,9 +19,10 @@ const Contacts = () => {
                             </ul>
                         </div>
                     </div>
-                    <p> 
+                    <h3> 
                         Contacts 
-                    </p>
+                    </h3>
+                    <MinHeightTextarea/>
             </header>
         </div>
     )
