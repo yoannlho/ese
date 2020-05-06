@@ -13,7 +13,7 @@ const Atelier = () => {
   return (
     <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={ logo } className="App-logo" alt="logo" />
                 <div class="wrapper">  
                     <div class="container">
                         <ul class="menu" rel="sam1">  
@@ -28,7 +28,7 @@ const Atelier = () => {
                     Inscription                  
                   </span>
                   <p>
-                    <BasicTextFields/>
+                    <BasicTextFields labelname="Nom" labelfirstname="Prénom"/>
                   </p>
                   <p>
                     <FormControl>
