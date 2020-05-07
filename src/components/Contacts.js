@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import MinHeightTextarea from './FormContact/MinHeightTextarea';
 
 const Contacts = () => {
