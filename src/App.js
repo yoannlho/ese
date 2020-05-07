@@ -8,11 +8,12 @@ import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
 import NavBar from './components/NavBar';
+import NavBardyn from './components/NavBardyn';
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      <NavBardyn />
       <div className="App">
         <header className="App-header">
           <img src={ logo } className="App-logo" alt="logo" />
