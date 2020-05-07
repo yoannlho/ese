@@ -12,6 +12,7 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <div className="App">
         <header className="App-header">
           <img src={ logo } className="App-logo" alt="logo" />
@@ -22,7 +23,6 @@ function App() {
             <li><Link to="/Contacts">Contacts</Link></li>
           </ul>
         </header>
-        <NavBar />
         <Switch>
             <Route exact path="/" component={ Landing }/>
             <Route exact path="/Atelier" component={ Atelier }/>
