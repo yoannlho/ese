@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from '../picture/ese.svg';
-import { Link } from "react-router-dom";
 import OutsideLinkButton from './outsideLinkButton/OutsideLinkButton';
 
 const Landing = () => {
