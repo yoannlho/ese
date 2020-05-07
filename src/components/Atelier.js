@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../picture/ese.svg';
-//import '../App.css';
-import { Link } from "react-router-dom";
-import FormControl from '@material-ui/core/FormControl';
-import { InputLabel, FormHelperText, Input, TextField, Button } from '@material-ui/core';
-import RadioButtonsGroup from './formControl/RadioGroup';
-import BasicTextFields from './formControl/NameForm';
-import ContainedButtons from './formControl/Button';
+import { TextField, Button } from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 
 const Atelier = () => {
@@ -18,6 +11,7 @@ const Atelier = () => {
   const changeHandler = (event) => {
     setFirstName(event.target.value)
   }
+
   return (
     <div className="App">
       <span>
