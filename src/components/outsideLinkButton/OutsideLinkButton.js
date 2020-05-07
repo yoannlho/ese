@@ -1,12 +1,10 @@
-// Components/Search.js
-
 import React from 'react';
 import { Button } from '@material-ui/core';
 import OutsideLinkButtonStyle from './OutsideLinkButton.module.css';
 
 const OutsideLinkButton = (props) => {
   const { urlLink, labelButton } = props;
-  
+
   return (
     <div>
       <Button
