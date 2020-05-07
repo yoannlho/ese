@@ -7,6 +7,7 @@ import logo from './picture/ese.svg';
 import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <li><Link to="/Contacts">Contacts</Link></li>
           </ul>
         </header>
+        <NavBar />
         <Switch>
             <Route exact path="/" component={ Landing }/>
             <Route exact path="/Atelier" component={ Atelier }/>
