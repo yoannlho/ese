@@ -7,30 +7,29 @@ import logo from './picture/ese.svg';
 import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
-//import OutsideLinkButton from './components/outsideLinkButton/OutsideLinkButton';
 
 function App() {
   return (
-  <BrowserRouter>
-    <div className="App">
-      <header className="App-header">
-        <img src={ logo } className="App-logo" alt="logo" />
-        <ul class="menu" rel="sam1">  
-          <li class="active"><Link to="/">Accueil</Link></li>  
-          <li><Link to="/Atelier">Atelier</Link></li>
-          <li><Link to="/Intervenant">Intervenant</Link></li>
-          <li><Link to="/Contacts">Contacts</Link></li>
-        </ul>
-      </header>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <img src={ logo } className="App-logo" alt="logo" />
+          <ul class="menu" rel="sam1">  
+            <li class="active"><Link to="/">Accueil</Link></li>  
+            <li><Link to="/Atelier">Atelier</Link></li>
+            <li><Link to="/Intervenant">Intervenant</Link></li>
+            <li><Link to="/Contacts">Contacts</Link></li>
+          </ul>
+        </header>
         <Switch>
-          <Route exact path="/" component={ Landing }/>
-          <Route exact path="/Atelier" component={ Atelier }/>
-          <Route exact path="/Intervenant" component={ Intervenant }/>
-          <Route exact path="/Contacts" component={ Contacts }/>
-          <Route component={ Error404 }/>
+            <Route exact path="/" component={ Landing }/>
+            <Route exact path="/Atelier" component={ Atelier }/>
+            <Route exact path="/Intervenant" component={ Intervenant }/>
+            <Route exact path="/Contacts" component={ Contacts }/>
+            <Route component={ Error404 }/>
         </Switch>
-    </div>
-  </BrowserRouter>
+      </div>
+    </BrowserRouter>
   );
 }
 
