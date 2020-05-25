@@ -67,9 +67,9 @@ const NavBardyn = (props) => {
                   
                 </Typography>
                 <Link to="/">Accueil</Link>
-                <Link to="/Atelier" component="button" variant="body2">Atelier</Link>
-                <Button color="inherit">3</Button>
-                <Button color="inherit">4</Button>
+                <Link to="/Atelier" color="inherit">Atelier</Link>
+                <Link to="/Intervenant" color="body2">Intervenant</Link>
+                <Link to="/Contacts" color="body2">Contacts</Link>
               </Toolbar>
             </AppBar>
           </ElevationScroll>
