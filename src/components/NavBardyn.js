@@ -3,22 +3,20 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import logo from '../picture/ese.svg';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    justifyContent: 'center',
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2), 
   },
   title: {
     flexGrow: 1,
@@ -66,7 +64,7 @@ const NavBardyn = (props) => {
                 <Typography variant="h6" className={classes.title}>
                   
                 </Typography>
-                <Link to="/">Accueil</Link>
+                <Link classes={{root : classes.root}} to="/">Accueil</Link>
                 <Link to="/Atelier" color="inherit">Atelier</Link>
                 <Link to="/Intervenant" color="body2">Intervenant</Link>
                 <Link to="/Contacts" color="body2">Contacts</Link>
