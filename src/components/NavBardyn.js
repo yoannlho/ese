@@ -11,6 +11,7 @@ import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -65,8 +66,8 @@ const NavBardyn = (props) => {
                 <Typography variant="h6" className={classes.title}>
                   
                 </Typography>
-                <Button color="inherit">1</Button>
-                <Button color="inherit">2</Button>
+                <Link to="/">Accueil</Link>
+                <Link to="/Atelier" component="button" variant="body2">Atelier</Link>
                 <Button color="inherit">3</Button>
                 <Button color="inherit">4</Button>
               </Toolbar>
