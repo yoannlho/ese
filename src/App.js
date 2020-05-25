@@ -14,12 +14,6 @@ function App() {
       <NavBardyn />
       <div className="App">
         <header className="App-header">
-          <ul class="menu" rel="sam1">  
-            <li class="active"><Link to="/">Accueil</Link></li>  
-            <li><Link to="/Atelier">Atelier</Link></li>
-            <li><Link to="/Intervenant">Intervenant</Link></li>
-            <li><Link to="/Contacts">Contacts</Link></li>
-          </ul>
         </header>
         <Switch>
             <Route exact path="/" component={ Landing }/>
