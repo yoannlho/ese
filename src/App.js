@@ -3,11 +3,9 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import Error404 from './components/Error404';
 import Landing from './components/Landing';
 import Atelier from './components/Atelier';
-import logo from './picture/ese.svg';
 import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
-import NavBar from './components/NavBar';
 import NavBardyn from './components/NavBardyn';
 
 function App() {
@@ -16,7 +14,6 @@ function App() {
       <NavBardyn />
       <div className="App">
         <header className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
           <ul class="menu" rel="sam1">  
             <li class="active"><Link to="/">Accueil</Link></li>  
             <li><Link to="/Atelier">Atelier</Link></li>
