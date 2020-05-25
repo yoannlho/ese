@@ -63,7 +63,7 @@ const NavBardyn = (props) => {
                   <img src={ logo } className="App-logo" alt="logo" />
                 </IconButton>
                 <Typography variant="h6" className={classes.title}>
-                  News
+                  
                 </Typography>
                 <Button color="inherit">1</Button>
                 <Button color="inherit">2</Button>
