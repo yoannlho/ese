@@ -23,8 +23,14 @@ const NavBardyn = () => {
             <Button>Atelier</Button>
           </Link>
 
-          <Link to="/Intervenant" color="body2">Intervenant</Link>
-          <Link to="/Contacts" color="body2">Contacts</Link>
+          <Link to="/Intervenant">
+            <Button>Intervenant</Button>
+          </Link>
+
+          <Link to="/Contacts">
+            <Button>Contact</Button>
+          </Link>
+
         </Toolbar>
       </AppBar>
     </div>
