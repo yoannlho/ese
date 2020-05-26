@@ -14,14 +14,14 @@ function App() {
       <NavBardyn />
       <div className="App">
         <header className="App-header">
+          <Switch>
+              <Route exact path="/" component={ Landing }/>
+              <Route exact path="/Atelier" component={ Atelier }/>
+              <Route exact path="/Intervenant" component={ Intervenant }/>
+              <Route exact path="/Contacts" component={ Contacts }/>
+              <Route component={ Error404 }/>
+          </Switch>
         </header>
-        <Switch>
-            <Route exact path="/" component={ Landing }/>
-            <Route exact path="/Atelier" component={ Atelier }/>
-            <Route exact path="/Intervenant" component={ Intervenant }/>
-            <Route exact path="/Contacts" component={ Contacts }/>
-            <Route component={ Error404 }/>
-        </Switch>
       </div>
     </BrowserRouter>
   );
