@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    justifyContent: 'center',
   },
   menuButton: {
     marginRight: theme.spacing(2), 
@@ -25,14 +24,11 @@ const useStyles = makeStyles((theme) => ({
 
 const ElevationScroll = (props) => {
   const { children, window } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
-  const trigger = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 0,
-    target: window ? window() : undefined,
-  });
+    const trigger = useScrollTrigger({
+      disableHysteresis: true,
+      threshold: 0,
+      target: window ? window() : undefined,
+    });
 
   return React.cloneElement(children, {
     elevation: trigger ? 4 : 0,
@@ -41,10 +37,6 @@ const ElevationScroll = (props) => {
 
 ElevationScroll.propTypes = {
   children: PropTypes.element.isRequired,
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 
@@ -64,7 +56,7 @@ const NavBardyn = (props) => {
                 <Typography variant="h6" className={classes.title}>
                   
                 </Typography>
-                <Link classes={{root : classes.root}} to="/">Accueil</Link>
+                <Link to="/">Accueil</Link>
                 <Link to="/Atelier" color="inherit">Atelier</Link>
                 <Link to="/Intervenant" color="body2">Intervenant</Link>
                 <Link to="/Contacts" color="body2">Contacts</Link>
