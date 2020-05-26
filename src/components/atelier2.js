@@ -1,7 +1,4 @@
 import React from 'react';
-import logo from '../picture/ese.svg';
-//import '../App.css';
-import { Link } from "react-router-dom";
 import FormControl from '@material-ui/core/FormControl';
 import { InputLabel, FormHelperText, Input } from '@material-ui/core';
 import RadioButtonsGroup from './formControl/RadioGroup';
