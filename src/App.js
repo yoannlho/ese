@@ -6,7 +6,7 @@ import Atelier from './components/Atelier';
 import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
-import NavBardyn from './components/NavBardyn';
+import NavBardyn from './components/navBar/NavBardyn';
 
 function App() {
   return (
