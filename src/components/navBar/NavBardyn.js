@@ -16,19 +16,19 @@ const NavBardyn = () => {
           <IconButton edge="start" className={ NavStyle.menuButton } color="inherit" aria-label="menu">
           </IconButton>
           <Link className={ NavStyle.nav } to="/">
-            <Button>Accueil</Button> 
+            <Button variant="contained" color="primary">Accueil</Button> 
           </Link>
 
           <Link className={ NavStyle.nav } to="/Atelier">
-            <Button>Atelier</Button>
+            <Button variant="contained" color="primary">Atelier</Button>
           </Link>
 
           <Link className={ NavStyle.nav } to="/Intervenant">
-            <Button>Intervenant</Button>
+            <Button variant="contained" color="primary">Intervenant</Button>
           </Link>
 
           <Link className={ NavStyle.nav } to="/Contacts">
-            <Button>Contact</Button>
+            <Button variant="contained" color="primary">Contact</Button>
           </Link>
 
         </Toolbar>
