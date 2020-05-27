@@ -15,19 +15,19 @@ const NavBardyn = () => {
         <Toolbar>
           <IconButton edge="start" className={ NavStyle.menuButton } color="inherit" aria-label="menu">
           </IconButton>
-          <Link to="/">
+          <Link className={ NavStyle.nav } to="/">
             <Button>Accueil</Button> 
           </Link>
 
-          <Link to="/Atelier">
+          <Link className={ NavStyle.nav } to="/Atelier">
             <Button>Atelier</Button>
           </Link>
 
-          <Link to="/Intervenant">
+          <Link className={ NavStyle.nav } to="/Intervenant">
             <Button>Intervenant</Button>
           </Link>
 
-          <Link to="/Contacts">
+          <Link className={ NavStyle.nav } to="/Contacts">
             <Button>Contact</Button>
           </Link>
 
