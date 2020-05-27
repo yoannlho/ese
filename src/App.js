@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Error404 from './components/Error404';
 import Landing from './components/Landing';
 import Atelier from './components/Atelier';
