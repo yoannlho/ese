@@ -27,7 +27,7 @@ const NavBardyn = () => {
           </Link>
 
           <Link className={ NavStyle.nav } to="/Contacts">
-            <Button variant="contained" color="primary">Contact</Button>
+            <Button>Contact</Button>
           </Link>
 
         </Toolbar>
