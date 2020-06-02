@@ -13,10 +13,9 @@ const NavBardyn = () => {
       <AppBar position="static">
       <img src={ logo } className="App-logo" alt="logo" />
         <Toolbar>
-          <IconButton edge="start" className={ NavStyle.menuButton } color="inherit" aria-label="menu">
-          </IconButton>
+          <IconButton edge="start" className={ NavStyle.menuButton } color="inherit" aria-label="menu"/>
           <Link className={ NavStyle.nav } to="/">
-            <Button variant="contained" color="primary">Accueil</Button> 
+            <Button>Accueil</Button> 
           </Link>
 
           <Link className={ NavStyle.nav } to="/Atelier">
