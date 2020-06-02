@@ -19,7 +19,7 @@ const NavBardyn = () => {
           </Link>
 
           <Link className={ NavStyle.nav } to="/Atelier">
-            <Button variant="contained" color="primary">Atelier</Button>
+            <Button>Atelier</Button>
           </Link>
 
           <Link className={ NavStyle.nav } to="/Intervenant">
