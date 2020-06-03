@@ -1,0 +1,8 @@
+.root {
+  width: '50%';
+  max-width: '36ch';
+}
+
+.inline {
+  display: 'block';
+}
