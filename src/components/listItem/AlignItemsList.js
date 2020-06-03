@@ -8,8 +8,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
 const AlignItemsList = () => {
-  const classes = useStyles();
-
   return (
     <List className={classes.root}>
       <ListItem alignItems="flex-start">
