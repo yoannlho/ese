@@ -15,7 +15,7 @@ const NavBardyn = () => {
         <Toolbar>
           <IconButton edge="start" className={ NavStyle.menuButton } color="inherit" aria-label="menu"/>
           <Link className={ NavStyle.nav } to="/">
-            <Button class= { NavStyle.col }>Accueil</Button> 
+            <Button>Accueil</Button> 
           </Link>
 
           <Link className={ NavStyle.nav } to="/Atelier">
