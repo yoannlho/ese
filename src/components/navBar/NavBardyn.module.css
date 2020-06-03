@@ -8,16 +8,6 @@
   margin-left: 110px;
 }
 
-.col {
-  background-color: transparent;
-  border: none;
-  color: white;
-}
-
 .menuButton {
   margin-right: 5px;
-}
-
-.title {
-  flex-grow: 1;
 }
