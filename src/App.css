@@ -3,7 +3,6 @@
 }
 
 .App-logo {
- /* height: 40vmin;*/
   height: 100px;
   pointer-events: none;
   position: fixed;
@@ -18,7 +17,6 @@
 }
 
 .App-header {
- /* background-color: #282c34;*/
   background-image:url(picture/background6.jpg);
   background-repeat: repeat;
   background-color: #000000;
@@ -34,7 +32,6 @@
 }
 
 .App-link {
-/*  color: #61dafb;*/
   color: #000000;
   font-size: 30px;
 }
