@@ -5,7 +5,7 @@ import './filecss/ContactStyle.css';
 const Contacts = () => {
   return (
     <div className="App">
-      <h3> 
+      <h3 className ="title"> 
           Contacts 
       </h3>
       <MinHeightTextarea label="minimum height" rowsMin={3} placeholder="Minimum 3 rows"/>
