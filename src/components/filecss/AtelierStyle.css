@@ -6,3 +6,8 @@ p {
   background-color: white;
 }
 
+.title {
+  position: absolute;
+  left: 480px;
+  top: 70px;
+}
