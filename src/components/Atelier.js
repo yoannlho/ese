@@ -18,7 +18,7 @@ const Atelier = () => {
         Inscription                  
       </span>
       <form onSubmit={ submitHandler }>
-        <TextField 
+        <TextField className="filledButton"
           id="first_name"
           label="First Name"
           variant="filled"
