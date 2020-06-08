@@ -1,5 +1,6 @@
 import React from 'react';
 import MinHeightTextarea from './FormContact/MinHeightTextarea';
+import './filecss/ContactStyle.css';
 
 const Contacts = () => {
   return (
