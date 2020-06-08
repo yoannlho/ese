@@ -14,9 +14,9 @@ const Atelier = () => {
 
   return (
     <div className="App">
-      <span>
+      <h3 className="title">
         Inscription                  
-      </span>
+      </h3>
       <form onSubmit={ submitHandler }>
         <TextField className="filledButton"
           id="first_name"
