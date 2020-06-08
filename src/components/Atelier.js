@@ -21,8 +21,10 @@ const Atelier = () => {
         <TextField 
           id="first_name"
           label="First Name"
+          variant="filled"
+          color="secondary"  
           value={ firstName }
-          onChange={ changeHandler }        
+          onChange={ changeHandler }      
         />
         <Button 
           type="submit"
