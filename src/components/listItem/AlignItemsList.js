@@ -10,7 +10,7 @@ import AlignItem from './AlignItemsList.module.css';
 
 const AlignItemsList = () => {
   return (
-    <List className={AlignItem.root}>
+    <List className={ AlignItem.root }>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="" />
@@ -22,7 +22,7 @@ const AlignItemsList = () => {
               <Typography
                 component="span"
                 variant="body2"
-                className={AlignItem.inline}
+                className={ AlignItem.inline }
                 color="textPrimary"
               >
                 Ingénieur de recherche en Cybersécurité
@@ -43,7 +43,7 @@ const AlignItemsList = () => {
               <Typography
                 component="span"
                 variant="body2"
-                className={AlignItem.inline}
+                className={ AlignItem.inline }
                 color="textPrimary"
               >
                 Expert en test d'intrusion
@@ -64,7 +64,7 @@ const AlignItemsList = () => {
               <Typography
                 component="span"
                 variant="body2"
-                className={AlignItem.inline}
+                className={ AlignItem.inline }
                 color="textPrimary"
               >
                 Expert en réponse sur incident
@@ -85,7 +85,7 @@ const AlignItemsList = () => {
               <Typography
                 component="span"
                 variant="body2"
-                className={AlignItem.inline}
+                className={ AlignItem.inline }
                 color="textPrimary"
               >
                 Consultant en sécurité informatique
