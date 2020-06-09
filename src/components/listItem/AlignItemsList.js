@@ -19,11 +19,11 @@ const AlignItemsList = () => {
           primary="Jean-pierre AUBIN"
           secondary={
             <React.Fragment>
-              <Typography
+              <Typography className={ AlignItem.color }
                 component="span"
                 variant="body2"
                 className={ AlignItem.inline }
-                color="textPrimary"
+                color="initial"
               >
                 Ingénieur de recherche en Cybersécurité
               </Typography>
