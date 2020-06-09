@@ -19,7 +19,7 @@ const AlignItemsList = () => {
           primary="Jean-pierre AUBIN"
           secondary={
             <React.Fragment>
-              <Typography className={ AlignItem.color }
+              <Typography
                 component="span"
                 variant="body2"
                 className={ AlignItem.inline }
