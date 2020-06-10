@@ -23,7 +23,7 @@ const AlignItemsList = () => {
                 component="span"
                 variant="body2"
                 className={ AlignItem.inline }
-                color="initial"
+                color="textPrimary"
               >
                 Ingénieur de recherche en Cybersécurité
               </Typography>
