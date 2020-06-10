@@ -7,3 +7,7 @@
 .inline {
   display: 'block';
 }
+
+.colortext {
+  color: black;
+}
