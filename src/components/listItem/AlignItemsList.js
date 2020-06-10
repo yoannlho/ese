@@ -15,7 +15,7 @@ const AlignItemsList = () => {
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="" />
         </ListItemAvatar>
-        <ListItemText
+        <ListItemText className={ AlignItem.colortext }
           primary="Jean-pierre AUBIN"
           secondary={
             <React.Fragment>
