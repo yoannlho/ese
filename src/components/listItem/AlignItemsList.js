@@ -36,7 +36,7 @@ const AlignItemsList = () => {
         <ListItemAvatar>
           <Avatar alt="Travis Howard" src="" />
         </ListItemAvatar>
-        <ListItemText
+        <ListItemText className={ AlignItem.colortext }
           primary="..."
           secondary={
             <React.Fragment>
@@ -57,7 +57,7 @@ const AlignItemsList = () => {
         <ListItemAvatar>
           <Avatar alt="Cindy Baker" src="" />
         </ListItemAvatar>
-        <ListItemText
+        <ListItemText className={ AlignItem.colortext }
           primary="..."
           secondary={
             <React.Fragment>
@@ -78,7 +78,7 @@ const AlignItemsList = () => {
         <ListItemAvatar>
           <Avatar alt="Travis Howard" src="" />
         </ListItemAvatar>
-        <ListItemText
+        <ListItemText className={ AlignItem.colortext }
           primary="..."
           secondary={
             <React.Fragment>
