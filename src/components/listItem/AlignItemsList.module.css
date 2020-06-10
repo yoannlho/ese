@@ -1,6 +1,7 @@
 .root {
   width: '50%';
   max-width: '36ch';
+  background-color: gray;
 }
 
 .inline {
