@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MinHeightTextarea from './FormContact/MinHeightTextarea';
 import './filecss/ContactStyle.css';
 
 const Contacts = () => {
+  const[Name, SetName] = useState()
+  const submitHandler = (event) => {
+    event.preventDefault();
+    alert(`Name: ${Name}`)
+  };
+  const changeHandler = (event) => {
+    SetName(event.target.value)
+  }
+
   return (
     <div className="App">
       <h3 className ="title"> 
