@@ -19,7 +19,7 @@ const Contacts = () => {
           Contacts 
       </h3>
       <span className="formPosition">
-      <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Minimum 3 rows"/>
+        <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Minimum 3 rows"/>
       </span>
       <form onSubmit={ submitHandler }>
         <TextField className="filledButton"
