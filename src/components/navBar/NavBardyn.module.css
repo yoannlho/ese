@@ -8,6 +8,10 @@
   margin-left: 10%;
 }
 
+.navButton {
+  color: white !important;
+}
+
 .menuButton {
   margin-right: 5px;
 }
