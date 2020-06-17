@@ -26,7 +26,7 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandler }      
         />
-        <Button
+        <Button className={ AtelierStyle.sizePosition }
           variant="contained"
           color="primary"
           type="submit"
