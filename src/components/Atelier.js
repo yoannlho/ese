@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Button, Icon } from '@material-ui/core';
 import './filecss/AtelierStyle.css';
+import AtelierStyle from './filecss/AtelierStyle.css';
 
 const Atelier = () => {
   const [firstName, setFirstName] = useState() 
