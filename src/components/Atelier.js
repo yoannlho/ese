@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button } from '@material-ui/core';
+import { TextField, Button, Icon } from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 
 const Atelier = () => {
@@ -31,6 +31,8 @@ const Atelier = () => {
           color="primary"
           type="submit"
           label="envoyer"
+          endIcon={<Icon>send</Icon>}
+          
 
         
         />
