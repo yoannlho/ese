@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { TextField, Button, Icon } from '@material-ui/core';
+import { TextField, Button} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 
 const Atelier = () => {
@@ -12,13 +11,6 @@ const Atelier = () => {
   const changeHandler = (event) => {
     setFirstName(event.target.value)
   }
-  const useStyles = makeStyles((theme) => ({
-    button: {
-      margin: theme.spacing(1),
-    },
-  }));
-
-  const classes = useStyles();
 
   return (
     <div className="App">
@@ -39,7 +31,6 @@ const Atelier = () => {
           color="primary"
           type="submit"
           label="envoyer"
-          className={ classes.button }
           >
               Send
           
