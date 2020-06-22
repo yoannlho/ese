@@ -40,7 +40,6 @@ const Atelier = () => {
           type="submit"
           label="envoyer"
           className={ classes.button }
-          endIcon={<Icon>send</Icon>}
           >
               Send
           
