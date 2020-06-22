@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Button} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
+import SendIcon from '@material-ui/icons/Send';
 
 const Atelier = () => {
   const [firstName, setFirstName] = useState() 
@@ -31,6 +32,8 @@ const Atelier = () => {
           color="primary"
           type="submit"
           label="envoyer"
+          endIcon={<SendIcon />}
+         
           >
               Send
           
