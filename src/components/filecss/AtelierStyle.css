@@ -9,8 +9,9 @@
 }
 
 .buttonPosition {
-  align-content: flex-end;
-  position: fixed;
-  left: 0%;
-  top: 150%;
+  -webkit-transform: translate(-70%,-70%);
+  transform: translate(-70%,-70%);
+  position: absolute;
+  top: 70%;
+  left: 70%;
 }
