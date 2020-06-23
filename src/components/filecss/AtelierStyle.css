@@ -9,7 +9,8 @@
 }
 
 .buttonPosition {
-  position: absolute;
-  left: 40%;
-  top: 70%;
+  align-content: flex-end;
+  position: fixed;
+  left: 0%;
+  top: 150%;
 }
