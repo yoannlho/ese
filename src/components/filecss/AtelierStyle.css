@@ -1,13 +1,15 @@
-p {
-    font-size: 15px;
-  } 
-
 .filledButton {
   background-color: white;
 }
 
 .title {
   position: absolute;
-  left: 40%;
+  left: 40%; 
   top: 7.5%;
+}
+
+.buttonPosition {
+  position: absolute;
+  left: 40%;
+  top: 70%;
 }
