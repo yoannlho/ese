@@ -27,11 +27,11 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandler }      
         />
-        <Button
+        <Button className="buttonPosition"
           variant="contained"
           color="primary"
           type="submit"
-          label="envoyer"
+          //label="envoyer"
           endIcon={<SendIcon />}
          
           >
