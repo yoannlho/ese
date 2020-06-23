@@ -28,17 +28,19 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandler }      
         />
-        <Button className={ AtelierStyle.buttonPosition }
-          variant="contained"
-          color="primary"
-          type="submit"
-          //label="envoyer"
-          endIcon={<SendIcon />}
+        <span className="buttonPosition">
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            //label="envoyer"
+            endIcon={<SendIcon />}
          
-          >
-              Send
+            >
+                Send
           
-        </Button>
+          </Button>
+        </span>
       </form>
     </div>
   )
