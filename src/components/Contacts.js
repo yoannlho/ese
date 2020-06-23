@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import MinHeightTextarea from './FormContact/MinHeightTextarea';
 import './filecss/ContactStyle.css';
-import { TextField } from '@material-ui/core';
+import { TextField, Button } from '@material-ui/core';
+import SendIcon from '@material-ui/icons/Send';
 
 const Contacts = () => {
   const[Name, SetName] = useState()
@@ -30,7 +31,20 @@ const Contacts = () => {
           value={ Name }
           onChange={ changeHandler }      
         />
-        </form>
+        <span className="buttonPosition2">
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            label="envoyer"
+            endIcon={<SendIcon />}
+         
+            >
+                Send
+          
+          </Button>
+        </span>
+      </form>
     </div>
   )
 }
