@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { TextField, Button} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
-import AtelierStyle from './filecss/AtelierStyle.css';
 
 const Atelier = () => {
   const [firstName, setFirstName] = useState() 
