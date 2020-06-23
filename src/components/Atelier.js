@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Button} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
+import AtelierStyle from './filecss/AtelierStyle.css';
 
 const Atelier = () => {
   const [firstName, setFirstName] = useState() 
@@ -27,7 +28,7 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandler }      
         />
-        <Button className="buttonPosition"
+        <Button className={ AtelierStyle.buttonPosition }
           variant="contained"
           color="primary"
           type="submit"
