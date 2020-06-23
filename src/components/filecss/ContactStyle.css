@@ -15,3 +15,9 @@
   left: -15%;
   top: -37%;
 }
+
+.buttonPosition2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
