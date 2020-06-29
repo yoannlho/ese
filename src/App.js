@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBardyn />
-      <div className="App">
+      <div className="content">
         <header className="App-header">
           <Switch>
               <Route exact path="/" component={ Landing }/>
