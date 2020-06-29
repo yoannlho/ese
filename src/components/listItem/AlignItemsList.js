@@ -8,9 +8,12 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import AlignItem from './AlignItemsList.module.css';
 
-const AlignItemsList = () => {
+const AlignItemsList = (props) => {
+  //props = {className: 'small_block'}
+  const { className: classValue = 'toto'} = props;
+  console.log('classValue', classValue)
   return (
-    <List className={ AlignItem.root }>
+    <List className={ [AlignItem.root, classValue].join(' ') }>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="" />
