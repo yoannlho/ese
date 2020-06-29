@@ -7,6 +7,7 @@ import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
 import NavBardyn from './components/navBar/NavBardyn';
+import AppStyle from './App.css';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <NavBardyn />
       <div className="content">
         <header className="App-header">
-          <Switch>
+          <Switch className={ AppStyle.App }>
               <Route exact path="/" component={ Landing }/>
               <Route exact path="/Atelier" component={ Atelier }/>
               <Route exact path="/Intervenant" component={ Intervenant }/>
