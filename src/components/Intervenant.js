@@ -8,7 +8,7 @@ const Intervenant = () => {
       <h3 className="title"> 
         Intervenant 
       </h3>
-      <AlignItemsList />
+      <AlignItemsList className="align_item"/>
     </div>
   )
 }
