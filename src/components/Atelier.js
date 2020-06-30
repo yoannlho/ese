@@ -19,7 +19,7 @@ const Atelier = () => {
         Inscription                  
       </h3>
       <form onSubmit={ submitHandler }>
-        <TextField className="filledButton"
+        <TextField className="filledButton1"
           id="first_name"
           label="First Name"
           variant="filled"
