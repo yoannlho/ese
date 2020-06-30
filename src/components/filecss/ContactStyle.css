@@ -4,10 +4,12 @@
   top: 7.5%;
 }
 
-.formPosition {
+.form_position {
+  height: 200px;
   position: absolute;
-  left: 55%;
-  top: 41.5%;
+  top: 40.5%;
+  left: 60%;
+  width: 20%;
 }
 
 .filledButton {
