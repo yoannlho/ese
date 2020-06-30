@@ -3,10 +3,10 @@ import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import MinHeightStyle from './MinHeightTextarea.module.css';
 
 const MinHeightTextarea = (props) => {
-  const {label, rowsMin, placeholder} = props;
-  
+  const { label, rowsMin, placeholder, className } = props;
+
     return (
-      <TextareaAutosize className={ MinHeightStyle.form }
+      <TextareaAutosize className={ [MinHeightStyle.form, className].join('') }
         aria-label={ label } 
         rowsMin={ rowsMin } 
         placeholder={ placeholder } 
