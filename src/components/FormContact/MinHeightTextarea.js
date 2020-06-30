@@ -6,11 +6,13 @@ const MinHeightTextarea = (props) => {
   const { label, rowsMin, placeholder, className } = props;
 
     return (
-      <TextareaAutosize className={ [MinHeightStyle.form, className].join('') }
+    <div className={ className }>
+      <TextareaAutosize className={ MinHeightStyle.form }
         aria-label={ label } 
         rowsMin={ rowsMin } 
         placeholder={ placeholder } 
       />
+    </div>
     )
 }
 
