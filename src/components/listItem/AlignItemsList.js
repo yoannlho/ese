@@ -10,10 +10,10 @@ import AlignItem from './AlignItemsList.module.css';
 
 const AlignItemsList = (props) => {
   //props = {className: 'small_block'}
-  const { className: classValue = 'toto'} = props;
-  console.log('classValue', classValue)
+  const { className } = props;
+
   return (
-    <List className={ [AlignItem.root, classValue].join(' ') }>
+    <List className={ [AlignItem.root, className].join(' ') }>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="" />
