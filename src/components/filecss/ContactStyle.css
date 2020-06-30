@@ -14,8 +14,10 @@
 
 .filledButton2 {
   background-color: white;
-  left: -75%;
-  top: -37%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  left: -100%;
+  top: 100%;
 }
 
 .buttonPosition2 {
