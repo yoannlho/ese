@@ -26,7 +26,7 @@ const Contacts = () => {
       </h3>
         <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Minimum 3 rows" className="form_position"/>
       <form onSubmit={ submitHandler }>
-        <TextField className="filledButton2"
+        <TextField className="filledButtonname2"
           id="Name"
           label="Name"
           variant="filled"
