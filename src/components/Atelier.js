@@ -6,16 +6,21 @@ import SendIcon from '@material-ui/icons/Send';
 const Atelier = () => {
   const [firstName, setFirstName] = useState()
   const [lastName, setLastName] = useState()
+  const [email, setEmail] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
     alert(`lastName: ${lastName}`)
+    alert(`email: ${email}`)
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
   }
   const changeHandlerLastName = (event) => {
     setLastName(event.target.value)
+  }
+  const changeHandlerEmail = (event) => {
+    setEmail(event.target.value)
   }
 
   return (
@@ -39,6 +44,14 @@ const Atelier = () => {
           color="secondary"  
           value={ lastName }
           onChange={ changeHandlerLastName }      
+        />
+        <TextField className="filledButtonemail"
+          id="email"
+          label="Email"
+          variant="filled"
+          color="secondary"  
+          value={ email }
+          onChange={ changeHandlerEmail }      
         />
         <span className="buttonPosition">
           <Button
