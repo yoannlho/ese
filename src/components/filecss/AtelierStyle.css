@@ -13,6 +13,11 @@
   left: 30%;
 }
 
+.filledButtontelephone {
+  background-color: white;
+  left: 50%;
+}
+
 .buttonPosition {
   position: absolute;
   top: 80%;
