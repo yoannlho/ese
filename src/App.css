@@ -27,10 +27,9 @@
 
 .App {
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-around;
+  flex-flow: column wrap;
   align-items: center;
-  flex-flow: column wrap; */
+  justify-content: center;
   height: 1000px;
   background-color: #16113a;
   clip-path: circle(90% at 50% -50%);
