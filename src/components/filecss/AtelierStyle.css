@@ -1,21 +1,23 @@
 .filledButtonfirst {
   background-color: white;
-  left: -10%;
+  left: 20%;
 }
 
 .filledButtonlast {
   background-color: white;
-  left: 10%;
+  left: 30%;
 }
 
 .filledButtonemail {
   background-color: white;
-  left: 30%;
+  left: -30%;
+  top: 160%;
 }
 
 .filledButtontelephone {
   background-color: white;
-  left: 50%;
+  left: -20%;
+  top: 160%;
 }
 
 .buttonPosition {
