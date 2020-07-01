@@ -7,11 +7,13 @@ const Atelier = () => {
   const [firstName, setFirstName] = useState()
   const [lastName, setLastName] = useState()
   const [email, setEmail] = useState()
+  const [telephone, setTelephone] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
     alert(`lastName: ${lastName}`)
     alert(`email: ${email}`)
+    alert(`telephone: ${telephone}`)
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
@@ -21,6 +23,9 @@ const Atelier = () => {
   }
   const changeHandlerEmail = (event) => {
     setEmail(event.target.value)
+  }
+  const changeHandlerTelephone = (event) => {
+    setTelephone(event.target.value)
   }
 
   return (
@@ -52,6 +57,14 @@ const Atelier = () => {
           color="secondary"  
           value={ email }
           onChange={ changeHandlerEmail }      
+        />
+        <TextField className="filledButtontelephone"
+          id="telephone"
+          label="telephone"
+          variant="filled"
+          color="secondary"  
+          value={ telephone }
+          onChange={ changeHandlerTelephone }  
         />
         <span className="buttonPosition">
           <Button
