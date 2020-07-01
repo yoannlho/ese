@@ -8,8 +8,14 @@
 
 .filledButton2 {
   background-color: white;
-  left: -100%;
+  left: -20%;
   top: -70%;
+}
+
+.filledButtonemail2 {
+  background-color: white;
+  top: 33%;
+  left: -70%;
 }
 
 .buttonPosition2 {
