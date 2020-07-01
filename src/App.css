@@ -38,3 +38,9 @@
   background-color: #16113a;
   clip-path: circle(90% at 50% -50%);
 }
+
+.title {
+  position: absolute;
+  left: 40%;
+  top: 7.5%;
+}
