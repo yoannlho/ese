@@ -4,13 +4,16 @@ import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
 
 const Atelier = () => {
-  const [firstName, setFirstName] = useState() 
+  const [firstName, setFirstName] = useState()
+  const [lastName, setLastName] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
+    alert(`lastName: ${lastName}`)
   };
   const changeHandler = (event) => {
     setFirstName(event.target.value)
+    setLastName(event.target.value)
   }
 
   return (
@@ -25,6 +28,14 @@ const Atelier = () => {
           variant="filled"
           color="secondary"  
           value={ firstName }
+          onChange={ changeHandler }      
+        />
+        <TextField className="filledButton2"
+          id="first_name"
+          label="First Name"
+          variant="filled"
+          color="secondary"  
+          value={ lastName }
           onChange={ changeHandler }      
         />
         <span className="buttonPosition">
