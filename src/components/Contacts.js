@@ -6,12 +6,17 @@ import SendIcon from '@material-ui/icons/Send';
 
 const Contacts = () => {
   const[Name, SetName] = useState()
+  const[email, SetEmail] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`Name: ${Name}`)
+    alert(`email: ${email}`)
   };
-  const changeHandler = (event) => {
+  const changeHandlerName = (event) => {
     SetName(event.target.value)
+  }
+  const changeHandlerEmail = (event) => {
+    SetEmail(event.target.value)
   }
 
   return (
@@ -27,7 +32,15 @@ const Contacts = () => {
           variant="filled"
           color="secondary"  
           value={ Name }
-          onChange={ changeHandler }      
+          onChange={ changeHandlerName }      
+        />
+        <TextField className="filledButtonemail2"
+          id="Email"
+          label="email"
+          variant="filled"
+          color="secondary"  
+          value={ email }
+          onChange={ changeHandlerEmail }      
         />
         <span className="buttonPosition2">
           <Button
