@@ -24,7 +24,7 @@ const Atelier = () => {
         Inscription                  
       </h3>
       <form onSubmit={ submitHandler }>
-        <TextField className="filledButton1"
+        <TextField className="filledButtonfirst"
           id="first_name"
           label="First Name"
           variant="filled"
@@ -32,7 +32,7 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandlerFirstName }      
         />
-        <TextField className="filledButton2"
+        <TextField className="filledButtonlast"
           id="last_name"
           label="Last Name"
           variant="filled"
