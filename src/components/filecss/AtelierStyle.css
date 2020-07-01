@@ -8,6 +8,11 @@
   left: 10%;
 }
 
+.filledButtonemail {
+  background-color: white;
+  left: 30%;
+}
+
 .title {
   position: absolute;
   left: 40%; 
