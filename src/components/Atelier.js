@@ -33,8 +33,8 @@ const Atelier = () => {
           onChange={ changeHandlerFirstName }      
         />
         <TextField className="filledButton2"
-          id="first_name"
-          label="First Name"
+          id="last_name"
+          label="Last Name"
           variant="filled"
           color="secondary"  
           value={ lastName }
