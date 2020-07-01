@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+.filledButtonlast {
+  background-color: white;
+}
+
 .title {
   position: absolute;
   left: 40%; 
