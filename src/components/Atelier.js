@@ -11,8 +11,10 @@ const Atelier = () => {
     alert(`firstName: ${firstName}`)
     alert(`lastName: ${lastName}`)
   };
-  const changeHandler = (event) => {
+  const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
+  }
+  const changeHandlerLastName = (event) => {
     setLastName(event.target.value)
   }
 
@@ -28,7 +30,7 @@ const Atelier = () => {
           variant="filled"
           color="secondary"  
           value={ firstName }
-          onChange={ changeHandler }      
+          onChange={ changeHandlerFirstName }      
         />
         <TextField className="filledButton2"
           id="first_name"
@@ -36,7 +38,7 @@ const Atelier = () => {
           variant="filled"
           color="secondary"  
           value={ lastName }
-          onChange={ changeHandler }      
+          onChange={ changeHandlerLastName }      
         />
         <span className="buttonPosition">
           <Button
