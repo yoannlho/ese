@@ -1,9 +1,11 @@
 .filledButtonfirst {
   background-color: white;
+  left: -10%;
 }
 
 .filledButtonlast {
   background-color: white;
+  left: 10%;
 }
 
 .title {
