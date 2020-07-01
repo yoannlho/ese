@@ -8,10 +8,8 @@
 
 .filledButton2 {
   background-color: white;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
   left: -100%;
-  top: 100%;
+  top: -70%;
 }
 
 .buttonPosition2 {
