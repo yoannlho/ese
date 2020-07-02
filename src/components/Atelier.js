@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button} from '@material-ui/core';
+import { TextField, Button, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
 
@@ -8,6 +8,7 @@ const Atelier = () => {
   const [lastName, setLastName] = useState()
   const [email, setEmail] = useState()
   const [telephone, setTelephone] = useState()
+  const [gender, setGender] = useState('Male')
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
@@ -26,6 +27,9 @@ const Atelier = () => {
   }
   const changeHandlerTelephone = (event) => {
     setTelephone(event.target.value)
+  }
+  const changeHandlerGender = (event) => {
+    setGender(event.target.value)
   }
 
   return (
@@ -79,6 +83,14 @@ const Atelier = () => {
           
           </Button>
         </span>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">Gender</FormLabel>
+          <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
+            <FormControlLabel value="male" control={<Radio />} label="Male" />
+            <FormControlLabel value="female" control={<Radio />} label="Female" />
+            <FormControlLabel value="other" control={<Radio />} label="Other" />
+          </RadioGroup>
+        </FormControl>
       </form>
     </div>
   )
