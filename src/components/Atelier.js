@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { TextField, Button, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
+import AtelierStyle from './filecss/AtelierStyle.css';
+
 
 const Atelier = () => {
   const [firstName, setFirstName] = useState()
@@ -83,7 +85,7 @@ const Atelier = () => {
           
           </Button>
         </span>
-        <FormControl component="fieldset">
+        <FormControl component="fieldset" className= { AtelierStyle.genderposition }>
           <FormLabel component="legend">Gender</FormLabel>
           <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
             <FormControlLabel value="male" control={<Radio />} label="Male" />
