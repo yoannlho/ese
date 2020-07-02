@@ -7,10 +7,12 @@ import SendIcon from '@material-ui/icons/Send';
 const Contacts = () => {
   const[Name, SetName] = useState()
   const[email, SetEmail] = useState()
+  const[textarea, SetTextarea] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`Name: ${Name}`)
     alert(`email: ${email}`)
+    alert(`textarea: ${textarea}`)
   };
   const changeHandlerName = (event) => {
     SetName(event.target.value)
@@ -18,14 +20,17 @@ const Contacts = () => {
   const changeHandlerEmail = (event) => {
     SetEmail(event.target.value)
   }
+  const changeHandlerTextarea = (event) => {
+    SetTextarea(event.target.value)
+  }
 
   return (
     <div className="App">
       <h3 className ="title"> 
           Contacts 
       </h3>
-        <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Minimum 3 rows" className="form_position"/>
       <form onSubmit={ submitHandler }>
+        <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Minimum 3 rows" className="form_position" value={ textarea } onChange={ changeHandlerTextarea }/>
         <TextField className="filledButtonname2"
           id="Name"
           label="Name"
