@@ -30,7 +30,15 @@ const Contacts = () => {
           Contacts 
       </h3>
       <form onSubmit={ submitHandler }>
-        <MinHeightTextarea label="minimum height" rowsMin={ 5 } placeholder="Votre message" className="form_position" value={ textarea } onChange={ changeHandlerTextarea }/>
+        <TextField className="form_position"
+        label="Votre message"
+        multiline
+        rowsMax={ 10 }
+        rows= { 5 }
+        placeholder="Votre message" 
+        value={ textarea } 
+        onChange={ changeHandlerTextarea }
+        />
         <TextField className="filledButtonname2"
           id="Name"
           label="Name"
