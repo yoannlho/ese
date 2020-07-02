@@ -34,7 +34,8 @@ const Contacts = () => {
         label="Votre message"
         multiline
         rowsMax={ 10 }
-        rows= { 5 }
+        rows= { 10 }
+        variant="filled"
         placeholder="Votre message" 
         value={ textarea } 
         onChange={ changeHandlerTextarea }
