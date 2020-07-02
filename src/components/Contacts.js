@@ -36,6 +36,7 @@ const Contacts = () => {
         rowsMax={ 10 }
         rows= { 10 }
         variant="filled"
+        color="secondary"
         value={ textarea } 
         onChange={ changeHandlerTextarea }
         />
