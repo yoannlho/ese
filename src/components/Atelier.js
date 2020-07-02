@@ -88,9 +88,8 @@ const Atelier = () => {
         <FormControl component="fieldset" className="genderposition">
           <FormLabel component="legend" className="titlegender">Gender</FormLabel>
           <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
-            <FormControlLabel value="male" control={<Radio />} label="Male" />
-            <FormControlLabel value="female" control={<Radio />} label="Female" />
-            <FormControlLabel value="other" control={<Radio />} label="Other" />
+            <FormControlLabel value="male" control={<Radio />} label="Homme" />
+            <FormControlLabel value="female" control={<Radio />} label="Femme" />
           </RadioGroup>
         </FormControl>
       </form>
