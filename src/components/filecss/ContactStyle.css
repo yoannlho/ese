@@ -1,20 +1,20 @@
 .form_position {
   background-color: white;
   top: 15%;
-  left: 70%;
+  left: 50%;
   width: 50%;
 }
 
 .filledButtonname2 {
   background-color: white;
-  left: -20%;
-  top: -70%;
+  left: -60%;
+  top: 15%;
 }
 
 .filledButtonemail2 {
   background-color: white;
-  top: 33%;
-  left: -70%;
+  top: -2%;
+  left: -35%;
 }
 
 .buttonPosition2 {
