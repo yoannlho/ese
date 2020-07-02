@@ -86,7 +86,7 @@ const Atelier = () => {
           </Button>
         </span>
         <FormControl component="fieldset" className="genderposition">
-          <FormLabel component="legend">Gender</FormLabel>
+          <FormLabel component="legend" className="titlegender">Gender</FormLabel>
           <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
             <FormControlLabel value="male" control={<Radio />} label="Male" />
             <FormControlLabel value="female" control={<Radio />} label="Female" />
