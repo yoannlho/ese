@@ -5,30 +5,38 @@
 
 .filledButtonfirst {
   background-color: white;
+  margin: 40px !important;
 }
 
 .filledButtonlast {
   background-color: white;
+  margin: 40px !important;
 }
 
 .filledButtonemail {
   background-color: white;
+  margin: 40px !important;
 }
 
 .filledButtontelephone {
   background-color: white;
+  margin: 40px !important;
 }
 
 .filledButtonstudentcard {
   background-color: white;
+  margin: 40px !important;
 }
 
 .genderposition {
  position: absolute;
+ margin: 40px !important;
 }
 
 .buttonPosition {
   position: absolute;
+  margin: 40px !important;
+
 }
 
 .titlegender {
