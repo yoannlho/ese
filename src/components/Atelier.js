@@ -45,7 +45,7 @@ const Atelier = () => {
       <form onSubmit={ submitHandler }>
         <TextField className="filledButtonfirst"
           id="first_name"
-          label="First Name"
+          label="Prénom"
           variant="filled"
           color="secondary"  
           value={ firstName }
@@ -53,7 +53,7 @@ const Atelier = () => {
         />
         <TextField className="filledButtonlast"
           id="last_name"
-          label="Last Name"
+          label="Nom"
           variant="filled"
           color="secondary"  
           value={ lastName }
@@ -61,7 +61,7 @@ const Atelier = () => {
         />
         <TextField className="filledButtonemail"
           id="email"
-          label="Email"
+          label="Adresse Email"
           variant="filled"
           color="secondary"  
           value={ email }
@@ -69,7 +69,7 @@ const Atelier = () => {
         />
         <TextField className="filledButtontelephone"
           id="telephone"
-          label="telephone"
+          label="téléphone"
           variant="filled"
           color="secondary"  
           value={ telephone }
