@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import MinHeightTextarea from './FormContact/MinHeightTextarea';
 import './filecss/ContactStyle.css';
 import { TextField, Button } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
