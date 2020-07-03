@@ -33,6 +33,7 @@
   height: 1000px;
   background-color: #16113a;
   clip-path: circle(90% at 50% -50%);
+  overflow-y: auto;
 }
 
 .title {
