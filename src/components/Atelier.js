@@ -83,11 +83,11 @@ const Atelier = () => {
           value={ studentcard }
           onChange={ changeHandlerStudentcard }  
         />
-        <span className="buttonPosition">
           <Button
             variant="contained"
             color="primary"
             type="submit"
+            className="buttonPosition"
             //label="envoyer"
             endIcon={<SendIcon />}
          
@@ -95,7 +95,7 @@ const Atelier = () => {
                 Envoyer
           
           </Button>
-        </span>
+        
         <FormControl component="fieldset" className="genderposition">
           <FormLabel component="legend" className="titlegender">Genre</FormLabel>
           <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
