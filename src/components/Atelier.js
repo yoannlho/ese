@@ -42,7 +42,7 @@ const Atelier = () => {
       <h3 className="title">
         Inscription                  
       </h3>
-      <form onSubmit={ submitHandler }>
+      <form className="flex-container" onSubmit={ submitHandler }>
         <TextField className="filledButtonfirst"
           id="first_name"
           label="Prénom"
