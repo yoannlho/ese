@@ -5,39 +5,30 @@
 
 .filledButtonfirst {
   background-color: white;
-  left: 20%;
 }
 
 .filledButtonlast {
   background-color: white;
-  left: 30%;
 }
 
 .filledButtonemail {
   background-color: white;
-  left: -25%;
-  top: 160%;
 }
 
 .filledButtontelephone {
   background-color: white;
-  left: -15%;
-  top: 160%;
 }
 
 .filledButtonstudentcard {
   background-color: white;
 }
 
-.buttonPosition {
-  position: absolute;
-  top: 300%;
-  left: -37%;
+.genderposition {
+ position: absolute;
 }
 
-.genderposition {
-  top: 40%;
-  left: 5%;
+.buttonPosition {
+  position: absolute;
 }
 
 .titlegender {
