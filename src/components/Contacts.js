@@ -56,19 +56,18 @@ const Contacts = () => {
           value={ email }
           onChange={ changeHandlerEmail }      
         />
-        <span className="buttonPosition2">
           <Button
             variant="contained"
             color="primary"
             type="submit"
             label="envoyer"
+            className="buttonPosition2"
             endIcon={<SendIcon />}
          
             >
                 Envoyer
           
           </Button>
-        </span>
       </form>
     </div>
   )
