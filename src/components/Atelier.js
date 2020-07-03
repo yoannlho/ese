@@ -9,12 +9,14 @@ const Atelier = () => {
   const [email, setEmail] = useState()
   const [telephone, setTelephone] = useState()
   const [gender, setGender] = useState('Male')
+  const [studentcard, setStudentcard] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
     alert(`lastName: ${lastName}`)
     alert(`email: ${email}`)
     alert(`telephone: ${telephone}`)
+    alert(`studentcard: ${studentcard}`)
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
@@ -30,6 +32,9 @@ const Atelier = () => {
   }
   const changeHandlerGender = (event) => {
     setGender(event.target.value)
+  }
+  const changeHandlerStudentcard = (event) => {
+    setStudentcard(event.target.value)
   }
 
   return (
@@ -69,6 +74,14 @@ const Atelier = () => {
           color="secondary"  
           value={ telephone }
           onChange={ changeHandlerTelephone }  
+        />
+        <TextField className="filledButtonstudentcard"
+          id="student_card"
+          label="Numéro de carte d'étudiant"
+          variant="filled"
+          color="secondary"  
+          value={ studentcard }
+          onChange={ changeHandlerStudentcard }  
         />
         <span className="buttonPosition">
           <Button
