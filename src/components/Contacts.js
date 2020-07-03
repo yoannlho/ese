@@ -50,7 +50,7 @@ const Contacts = () => {
         />
         <TextField className="filledButtonemail2"
           id="Email"
-          label="email"
+          label="Adresse Email"
           variant="filled"
           color="secondary"  
           value={ email }
@@ -65,7 +65,7 @@ const Contacts = () => {
             endIcon={<SendIcon />}
          
             >
-                Send
+                Envoyer
           
           </Button>
         </span>
