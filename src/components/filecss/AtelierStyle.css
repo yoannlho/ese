@@ -1,7 +1,6 @@
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-top: 500px;
 }
 
 .filledButtonfirst {
@@ -12,6 +11,7 @@
 .filledButtonlast {
   background-color: white;
   margin: 40px !important;
+  
 }
 
 .filledButtonemail {
