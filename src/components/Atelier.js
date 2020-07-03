@@ -92,7 +92,7 @@ const Atelier = () => {
             endIcon={<SendIcon />}
          
             >
-                Send
+                Envoyer
           
           </Button>
         </span>
