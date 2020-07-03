@@ -83,7 +83,14 @@ const Atelier = () => {
           value={ studentcard }
           onChange={ changeHandlerStudentcard }  
         />
-          <Button
+        <FormControl component="fieldset" className="genderposition">
+          <FormLabel component="legend" className="titlegender">Genre</FormLabel>
+          <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
+            <FormControlLabel value="male" control={<Radio />} label="Homme" />
+            <FormControlLabel value="female" control={<Radio />} label="Femme" />
+          </RadioGroup>
+        </FormControl>
+        <Button
             variant="contained"
             color="primary"
             type="submit"
@@ -95,14 +102,6 @@ const Atelier = () => {
                 Envoyer
           
           </Button>
-        
-        <FormControl component="fieldset" className="genderposition">
-          <FormLabel component="legend" className="titlegender">Genre</FormLabel>
-          <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
-            <FormControlLabel value="male" control={<Radio />} label="Homme" />
-            <FormControlLabel value="female" control={<Radio />} label="Femme" />
-          </RadioGroup>
-        </FormControl>
       </form>
     </div>
   )
