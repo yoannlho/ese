@@ -43,7 +43,7 @@ const Atelier = () => {
         Inscription                  
       </h3>
       <form className="flex-container" onSubmit={ submitHandler }>
-        <TextField className="filledButtonfirst"
+        <TextField className="filled_buttonfirst"
           id="first_name"
           label="Prénom"
           variant="filled"
@@ -51,7 +51,7 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandlerFirstName }      
         />
-        <TextField className="filledButtonlast"
+        <TextField className="filled_buttonlast"
           id="last_name"
           label="Nom"
           variant="filled"
@@ -59,7 +59,7 @@ const Atelier = () => {
           value={ lastName }
           onChange={ changeHandlerLastName }      
         />
-        <TextField className="filledButtonemail"
+        <TextField className="filled_buttonemail"
           id="email"
           label="Adresse Email"
           variant="filled"
@@ -67,7 +67,7 @@ const Atelier = () => {
           value={ email }
           onChange={ changeHandlerEmail }      
         />
-        <TextField className="filledButtontelephone"
+        <TextField className="filled_buttontelephone"
           id="telephone"
           label="téléphone"
           variant="filled"
@@ -75,7 +75,7 @@ const Atelier = () => {
           value={ telephone }
           onChange={ changeHandlerTelephone }  
         />
-        <TextField className="filledButtonstudentcard"
+        <TextField className="filled_buttonstudentcard"
           id="student_card"
           label="Numéro de carte d'étudiant"
           variant="filled"
@@ -83,8 +83,8 @@ const Atelier = () => {
           value={ studentcard }
           onChange={ changeHandlerStudentcard }  
         />
-        <FormControl component="fieldset" className="genderposition">
-          <FormLabel component="legend" className="titlegender">Genre</FormLabel>
+        <FormControl component="fieldset" className="gender_position">
+          <FormLabel component="legend" className="title_gender">Genre</FormLabel>
           <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
             <FormControlLabel value="male" control={<Radio />} label="Homme" />
             <FormControlLabel value="female" control={<Radio />} label="Femme" />
@@ -94,7 +94,7 @@ const Atelier = () => {
             variant="contained"
             color="primary"
             type="submit"
-            className="buttonPosition"
+            className="button_position"
             //label="envoyer"
             endIcon={<SendIcon />}
          
