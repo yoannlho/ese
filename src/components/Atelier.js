@@ -39,7 +39,7 @@ const Atelier = () => {
 
   return (
     <div className="App">
-      <h3 className="title">
+      <h3 className="title_atelier">
         Inscription                  
       </h3>
       <form className="flex-container" onSubmit={ submitHandler }>
