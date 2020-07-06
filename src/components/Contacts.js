@@ -29,7 +29,7 @@ const Contacts = () => {
           Contacts
       </h3>
       <form className="flex_container" onSubmit={ submitHandler }>
-        <TextField className="filledButtonname2"
+        <TextField className="filled_buttonname2"
           id="Name"
           label="Name"
           variant="filled"
@@ -37,7 +37,7 @@ const Contacts = () => {
           value={ Name }
           onChange={ changeHandlerName }      
         />
-        <TextField className="filledButtonemail2"
+        <TextField className="filled_buttonemail2"
           id="Email"
           label="Adresse Email"
           variant="filled"
@@ -60,7 +60,7 @@ const Contacts = () => {
             color="primary"
             type="submit"
             label="envoyer"
-            className="buttonPosition2"
+            className="button_position2"
             endIcon={<SendIcon />}
          
             >
