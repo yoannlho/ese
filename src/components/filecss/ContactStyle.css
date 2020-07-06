@@ -3,10 +3,6 @@
   flex-direction: column;
 }
 
-.form_position {
-  background-color: white;
-}
-
 .filledButtonname2 {
   background-color: white;
 }
@@ -15,5 +11,11 @@
   background-color: white;
 }
 
+.form_position {
+  background-color: white;
+}
+
 .buttonPosition2 {
+  position:absolute;
+  margin: 20% !important;
 }
