@@ -1,3 +1,7 @@
+.title_atelier {
+  margin-top: 20%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
