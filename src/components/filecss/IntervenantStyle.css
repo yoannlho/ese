@@ -1,6 +1,4 @@
 .align_item {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin: 5% !important;
+  width: 150%;
+  margin: -15% !important;
 }
