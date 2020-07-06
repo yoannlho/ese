@@ -26,19 +26,9 @@ const Contacts = () => {
   return (
     <div className="App">
       <h3 className ="title"> 
-          Contacts 
+          Contacts
       </h3>
       <form className="flex_container" onSubmit={ submitHandler }>
-        <TextField className="form_position"
-        label="Votre message"
-        multiline
-        rowsMax={ 10 }
-        rows= { 10 }
-        variant="filled"
-        color="secondary"
-        value={ textarea } 
-        onChange={ changeHandlerTextarea }
-        />
         <TextField className="filledButtonname2"
           id="Name"
           label="Name"
@@ -53,7 +43,17 @@ const Contacts = () => {
           variant="filled"
           color="secondary"  
           value={ email }
-          onChange={ changeHandlerEmail }      
+          onChange={ changeHandlerEmail } 
+        />
+        <TextField className="form_position"
+        label="Votre message"
+        multiline
+        rowsMax={ 10 }
+        rows= { 10 }
+        variant="filled"
+        color="secondary"
+        value={ textarea } 
+        onChange={ changeHandlerTextarea }
         />
           <Button
             variant="contained"
