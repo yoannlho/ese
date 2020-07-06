@@ -25,7 +25,7 @@ const Contacts = () => {
 
   return (
     <div className="App">
-      <h3 className ="title"> 
+      <h3 className ="title_contact"> 
           Contacts
       </h3>
       <form className="flex_container" onSubmit={ submitHandler }>
