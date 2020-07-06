@@ -5,7 +5,7 @@ import './filecss/IntervenantStyle.css';
 const Intervenant = () => {
   return (
     <div className="App">
-      <h3 className="title"> 
+      <h3> 
         Intervenant 
       </h3>
       <AlignItemsList className="align_item"/>
