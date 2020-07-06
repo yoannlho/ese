@@ -13,17 +13,20 @@
 .filledButtonemail2 {
   background-color: white;
   margin: 20px !important;
+  grid-column-start: 1;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
 }
 
 .form_position {
   background-color: white;
   margin: 20px !important;
+  grid-column: 4;
+  grid-row: 1 / 3;
 }
 
 .buttonPosition2 {
   margin: 20% !important;
   grid-column-start: 1;
   grid-column-end: span col4-start;
-  grid-row-start: 2;
-  grid-row-end: span 2;
 }
