@@ -28,7 +28,7 @@ const Contacts = () => {
       <h3 className ="title"> 
           Contacts 
       </h3>
-      <form onSubmit={ submitHandler }>
+      <form className="flex_container" onSubmit={ submitHandler }>
         <TextField className="form_position"
         label="Votre message"
         multiline
