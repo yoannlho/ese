@@ -22,6 +22,8 @@
 
 .buttonPosition2 {
   margin: 20% !important;
-  grid-column: 3 / span 2;
-  grid-row: third-line / 4;
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
 }
