@@ -7,43 +7,43 @@
   flex-direction: column;
 }
 
-.filledButtonfirst {
+.filled_buttonfirst {
   background-color: white;
   margin: 40px !important;
 }
 
-.filledButtonlast {
+.filled_buttonlast {
   background-color: white;
   margin: 40px !important;
   
 }
 
-.filledButtonemail {
+.filled_buttonemail {
   background-color: white;
   margin: 40px !important;
 }
 
-.filledButtontelephone {
+.filled_buttontelephone {
   background-color: white;
   margin: 40px !important;
 }
 
-.filledButtonstudentcard {
+.filled_buttonstudentcard {
   background-color: white;
   margin: 40px !important;
 }
 
-.genderposition {
+.gender_position {
  position: absolute;
  margin: 40px !important;
 }
 
-.buttonPosition {
+.button_position {
   position: absolute;
   margin: 40px !important;
 
 }
 
-.titlegender {
+.title_gender {
   color: grey !important;
 }
