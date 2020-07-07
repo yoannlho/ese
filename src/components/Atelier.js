@@ -102,7 +102,16 @@ const Atelier = () => {
                 Envoyer
           
           </Button>
+        <input type="submit" value="Submit"/>
       </form>
+      <script>
+        <script>
+          document.getElementById("myForm").addEventListener("submit", myFunction);
+            function myFunction() {
+            alert("The form was submitted")
+            }
+        </script>
+      </script>
     </div>
   )
 }
