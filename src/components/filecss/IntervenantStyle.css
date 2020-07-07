@@ -4,5 +4,6 @@
 
 .align_item {
   width: 150%;
-  margin: -15% !important;
+  margin: -20% !important;
+  margin-top: -100% !important;
 }
