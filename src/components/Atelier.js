@@ -42,7 +42,7 @@ const Atelier = () => {
       <h3 className="title_atelier">
         Inscription                  
       </h3>
-      <form className="flex-container" onSubmit={ submitHandler } id="myForm">
+      <form className="flex-container" onSubmit={ submitHandler }>
         <TextField className="filled_buttonfirst"
           id="first_name"
           label="Prénom"
@@ -102,14 +102,7 @@ const Atelier = () => {
                 Envoyer
           
           </Button>
-        <input type="submit" value="Submit"/>
       </form>
-        <script>
-          document.getElementById("myForm").addEventListener("submit", myFunction);
-            function myFunction() {
-            alert("The form was submitted")
-            }
-        </script>
     </div>
   )
 }
