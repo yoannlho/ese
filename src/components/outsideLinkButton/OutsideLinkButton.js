@@ -6,19 +6,17 @@ const OutsideLinkButton = (props) => {
   const { urlLink, labelButton, className } = props;
 
   return (
-    <div>
-      <Button className={ className }
-        onClick={() => {
-          window.location = urlLink;
-        }}
-        variant="contained" 
-        size="medium"
-        color="primary" 
-        className={ OutsideLinkButtonStyle.margin }
-      >
-        { labelButton }
-      </Button>
-    </div>
+    <Button className={ className }
+      onClick={() => {
+        window.location = urlLink;
+      }}
+      variant="contained" 
+      size="medium"
+      color="primary" 
+      className={ OutsideLinkButtonStyle.margin }
+    >
+      { labelButton }
+    </Button>
   )      
 }
 
