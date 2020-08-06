@@ -3,11 +3,11 @@ import { Button } from '@material-ui/core';
 import OutsideLinkButtonStyle from './OutsideLinkButton.module.css';
 
 const OutsideLinkButton = (props) => {
-  const { urlLink, labelButton } = props;
+  const { urlLink, labelButton, className } = props;
 
   return (
     <div>
-      <Button
+      <Button className={ className }
         onClick={() => {
           window.location = urlLink;
         }}
