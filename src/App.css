@@ -21,10 +21,11 @@
 }
 
 .App {
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
   height:900px;
   background-color: #16113a;
   overflow-y: auto;
+  flex-direction: column;
 }
