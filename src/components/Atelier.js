@@ -10,6 +10,7 @@ const Atelier = () => {
   const [telephone, setTelephone] = useState()
   const [gender, setGender] = useState('Male')
   const [studentcard, setStudentcard] = useState()
+  const [textarea, setTextArea] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
     alert(`firstName: ${firstName}`)
@@ -18,6 +19,7 @@ const Atelier = () => {
     alert(`telephone: ${telephone}`)
     alert(`studentcard: ${studentcard}`)
     alert(`genre: ${gender}`)
+    alert(`Textarea: ${textarea}`)
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
@@ -36,6 +38,9 @@ const Atelier = () => {
   }
   const changeHandlerStudentcard = (event) => {
     setStudentcard(event.target.value)
+  }
+  const changeHandlerTextarea = (event) => {
+    setTextArea(event.target.value)
   }
 
   return (
@@ -91,6 +96,16 @@ const Atelier = () => {
             <FormControlLabel value="female" control={<Radio />} label="Femme" />
           </RadioGroup>
         </FormControl>
+        <TextField className="form_position2"
+        label="Votre message"
+        multiline
+        rowsMax={ 10 }
+        rows= { 10 }
+        variant="filled"
+        color="secondary"
+        value={ textarea } 
+        onChange={ changeHandlerTextarea }
+        />
         <Button
             variant="contained"
             color="primary"
