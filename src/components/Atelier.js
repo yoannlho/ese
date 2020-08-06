@@ -17,6 +17,7 @@ const Atelier = () => {
     alert(`email: ${email}`)
     alert(`telephone: ${telephone}`)
     alert(`studentcard: ${studentcard}`)
+    alert(`genre: ${gender}`)
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
