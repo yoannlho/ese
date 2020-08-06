@@ -7,7 +7,7 @@ const Landing = () => {
       <h3>
           ESIEA SECURE EDITION 2020
       </h3>
-      <OutsideLinkButton urlLink="https://www.esiea.fr/esiea-secure-edition-2017/" labelButton="Plus d'info ici" className="outside_button_position"/>
+      <OutsideLinkButton urlLink="https://www.esiea.fr/esiea-secure-edition-2017/" labelButton="Plus d'info ici"/>
     </div>
   );
 }
