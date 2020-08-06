@@ -1,7 +1,5 @@
 .margin {
     margin: 5px;
-}
-
-.outside_button_position {
-  width: 50%;
+    position: absolute !important;
+    top: 70%;
 }
