@@ -38,6 +38,10 @@
  margin: 40px !important;
 }
 
+.form_position2 {
+  background-color: white;
+}
+
 .button_position {
   position: absolute;
   margin: 40px !important;
