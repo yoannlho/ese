@@ -97,7 +97,7 @@ const Atelier = () => {
           </RadioGroup>
         </FormControl>
         <TextField className="form_position2"
-        label="Suggestion d'idée d'atelier"
+        label="Suggestions d'idées d'atelier"
         multiline
         rowsMax={ 10 }
         rows= { 10 }
