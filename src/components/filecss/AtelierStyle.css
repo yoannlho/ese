@@ -6,6 +6,8 @@
 .flex-container {
   display: flex;
   flex-direction: column;
+  padding: 40%;
+  padding-top: 85%;
 }
 
 .filled_buttonfirst {
