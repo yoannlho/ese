@@ -1,13 +1,12 @@
 .title_atelier {
   top: 0%;
-  position: absolute;
+  position: fixed;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  padding: 40%;
-  padding-top: 85%;
+  margin-top: 50%;
 }
 
 .filled_buttonfirst {
@@ -46,8 +45,8 @@
 }
 
 .button_position {
-  position: absolute;
-  margin: 40px !important;
+  margin: 15% !important;
+  margin-bottom: 70% !important;
 
 }
 
