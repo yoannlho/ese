@@ -1,5 +1,6 @@
 .title_intervenant {
-  margin-top: -20%;
+  position: absolute;
+  top: 15%;
 }
 
 .align_item {
