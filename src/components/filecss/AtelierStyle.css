@@ -1,5 +1,6 @@
 .title_atelier {
-  margin-top: 28%;
+  top: 0%;
+  position: absolute;
 }
 
 .flex-container {
