@@ -1,11 +1,13 @@
 .title_contact {
-  margin-top: -10%;
+  top: 10%;
+  position: fixed;
 }
 
 .flex_container {
   display: grid;
   grid-template-columns: [first] [line2] [line3] auto [col4-start] [five] [end];
-  margin-top: -400px;
+  margin-top: 25%;
+  padding-bottom: 30%;
 }
 
 .filled_buttonname2 {
