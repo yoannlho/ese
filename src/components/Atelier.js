@@ -77,6 +77,7 @@ const Atelier = () => {
           color="secondary" 
           required
           type="email"
+          placeholder="mail@serveur.com"
           value={ email }
           onChange={ changeHandlerEmail }      
         />
