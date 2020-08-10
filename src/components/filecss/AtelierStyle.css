@@ -6,8 +6,8 @@
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-top: 50%;
-  height: 150%;
+  margin-top: 60%;
+  height: 215%;
 }
 
 .filled_buttonfirst {
