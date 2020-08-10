@@ -55,6 +55,7 @@ const Atelier = () => {
           variant="filled"
           color="secondary" 
           required
+          type="text"
           value={ firstName }
           onChange={ changeHandlerFirstName }      
         />
@@ -63,7 +64,8 @@ const Atelier = () => {
           label="Nom"
           variant="filled"
           color="secondary"
-          required 
+          required
+          type="text"
           value={ lastName }
           onChange={ changeHandlerLastName }      
         />
@@ -73,6 +75,7 @@ const Atelier = () => {
           variant="filled"
           color="secondary" 
           required
+          type="email"
           value={ email }
           onChange={ changeHandlerEmail }      
         />
@@ -80,7 +83,8 @@ const Atelier = () => {
           id="telephone"
           label="téléphone"
           variant="filled"
-          color="secondary"  
+          color="secondary"
+          type="tel"
           value={ telephone }
           onChange={ changeHandlerTelephone }  
         />
@@ -88,7 +92,8 @@ const Atelier = () => {
           id="student_card"
           label="Numéro de carte d'étudiant"
           variant="filled"
-          color="secondary"  
+          color="secondary"
+          type="text"
           value={ studentcard }
           onChange={ changeHandlerStudentcard }  
         />
