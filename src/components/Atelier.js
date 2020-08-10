@@ -46,9 +46,10 @@ const Atelier = () => {
   return (
     <div className="App">
       <h3 className="title_atelier">
-        Inscription                  
+        Inscription
       </h3>
       <form className="flex-container" onSubmit={ submitHandler }>
+      <h6>Les champs obligatoires sont précédés d'une étoile *</h6>
         <TextField className="filled_buttonfirst"
           id="first_name"
           label="Prénom"
