@@ -53,7 +53,8 @@ const Atelier = () => {
           id="first_name"
           label="Prénom"
           variant="filled"
-          color="secondary"  
+          color="secondary" 
+          required
           value={ firstName }
           onChange={ changeHandlerFirstName }      
         />
@@ -61,7 +62,8 @@ const Atelier = () => {
           id="last_name"
           label="Nom"
           variant="filled"
-          color="secondary"  
+          color="secondary"
+          required 
           value={ lastName }
           onChange={ changeHandlerLastName }      
         />
@@ -69,7 +71,8 @@ const Atelier = () => {
           id="email"
           label="Adresse Email"
           variant="filled"
-          color="secondary"  
+          color="secondary" 
+          required
           value={ email }
           onChange={ changeHandlerEmail }      
         />
