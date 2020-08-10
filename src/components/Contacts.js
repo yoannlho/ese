@@ -33,7 +33,9 @@ const Contacts = () => {
           id="Name"
           label="Name"
           variant="filled"
-          color="secondary"  
+          color="secondary"
+          required
+          type="text"
           value={ Name }
           onChange={ changeHandlerName }      
         />
@@ -41,7 +43,9 @@ const Contacts = () => {
           id="Email"
           label="Adresse Email"
           variant="filled"
-          color="secondary"  
+          color="secondary"
+          required
+          type="email"
           value={ email }
           onChange={ changeHandlerEmail } 
         />
@@ -52,6 +56,8 @@ const Contacts = () => {
         rows= { 10 }
         variant="filled"
         color="secondary"
+        required
+        type="text"
         value={ textarea } 
         onChange={ changeHandlerTextarea }
         />
