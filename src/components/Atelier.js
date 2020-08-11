@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TextField, Button, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio} from '@material-ui/core';
 import './filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
@@ -13,13 +13,8 @@ const Atelier = () => {
   const [textarea, setTextArea] = useState()
   const submitHandler = (event) => {
     event.preventDefault();
-    alert(`firstName: ${firstName}`)
-    alert(`lastName: ${lastName}`)
-    alert(`email: ${email}`)
-    alert(`telephone: ${telephone}`)
-    alert(`studentcard: ${studentcard}`)
-    alert(`genre: ${gender}`)
-    alert(`Textarea: ${textarea}`)
+    var result = Array(`firstName: ${firstName}, lastName: ${lastName}, email: ${email}, telephone: ${telephone}, studentcard: ${studentcard}, genre: ${gender}, Textarea: ${textarea}`)
+    document.getElementById("text").innerHTML = result
   };
   const changeHandlerFirstName = (event) => {
     setFirstName(event.target.value)
@@ -60,6 +55,7 @@ const Atelier = () => {
           value={ firstName }
           onChange={ changeHandlerFirstName }      
         />
+          <span id="text"></span>
         <TextField className="filled_buttonlast"
           id="last_name"
           label="Nom"
