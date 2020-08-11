@@ -87,7 +87,7 @@ const Atelier = () => {
           variant="filled"
           color="secondary"
           type="tel"
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          pattern="[0-9]{10}"
           value={ telephone }
           onChange={ changeHandlerTelephone }  
         />
