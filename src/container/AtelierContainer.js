@@ -12,5 +12,21 @@ class AtelierContainer extends Component {
         gender: '',
         studentcard: '',
         textarea: ''
-      },
+    },
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleChange(event) { 
+    this.setState({firstName: event.target.firstName});
+    this.setState({lastName: event.target.lastName});
+    this.setState({email: event.target.email});
+    this.setState({telephone: event.target.telephone});
+    this.setState({gender: event.target.gender});
+    this.setState({studentcard: event.target.studentcard});
+    this.setState({textarea: event.target.textarea});
+  }
+
+
+
+
 }
