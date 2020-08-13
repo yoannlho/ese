@@ -26,6 +26,11 @@ class AtelierContainer extends Component {
     this.setState({textarea: event.target.textarea});
   }
 
+  handleSubmit(event) {
+    alert('Le prénom a été soumis : ' + this.state.firstName);
+    event.preventDefault();
+  }
+
 
 
 
