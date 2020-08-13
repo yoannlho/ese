@@ -17,6 +17,12 @@ class AtelierContainer extends Component {
         textarea: ''
     };
     this.changeHandlerFirstName = this.changeHandlerFirstName.bind(this);
+    this.changeHandlerLastName = this.changeHandlerLastName.bind(this);
+    this.changeHandlerEmail = this.changeHandlerEmail.bind(this);
+    this.changeHandlerTelephone = this.changeHandlerTelephone.bind(this);
+    this.changeHandlerGender = this.changeHandlerGender.bind(this);
+    this.changeHandlerStudentcard = this.changeHandlerStudentcard.bind(this);
+    this.changeHandlerTextarea = this.changeHandlerTextarea.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   changeHandlerFirstName(event) { 
