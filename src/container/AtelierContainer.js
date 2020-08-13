@@ -49,6 +49,12 @@ class AtelierContainer extends Component {
 
   handleSubmit(event) {
     alert('Le prénom a été soumis : ' + this.state.firstName);
+    alert('Le nom de famille a été soumis : ' + this.state.lastName);
+    alert('L email a été soumis : ' + this.state.email);
+    alert('Le téléphone a été soumis : ' + this.state.telephone);
+    alert('Le genre a été soumis : ' + this.state.gender);
+    alert('Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard);
+    alert('La zone de texte a été soumis : ' + this.state.textarea);
     event.preventDefault();
   }
   render() {
