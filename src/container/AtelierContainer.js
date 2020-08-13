@@ -12,10 +12,10 @@ class AtelierContainer extends Component {
         lastName: '',
         email: '',
         telephone: '',
-        gender: '',
+        gender: ['Male'],
         studentcard: '',
         textarea: ''
-    },
+    }
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
