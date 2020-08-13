@@ -32,7 +32,7 @@ class AtelierContainer extends Component {
   }
   render() {
     return (
-      <form className="flex-container" onSubmit={ submitHandler }>
+      <form className="flex-container" onSubmit={ this.handleSubmit }>
           <h3>
             Inscription
           </h3>
