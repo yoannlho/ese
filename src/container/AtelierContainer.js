@@ -15,18 +15,18 @@ class AtelierContainer extends Component {
         gender: ['Male'],
         studentcard: '',
         textarea: ''
-    }
-    this.handleChange = this.handleChange.bind(this);
+    };
+    this.changeHandlerFirstName = this.changeHandlerFirstName.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  handleChange(event) { 
-    this.setState({firstName: event.target.firstName});
-    this.setState({lastName: event.target.lastName});
-    this.setState({email: event.target.email});
-    this.setState({telephone: event.target.telephone});
-    this.setState({gender: event.target.gender});
-    this.setState({studentcard: event.target.studentcard});
-    this.setState({textarea: event.target.textarea});
+  changeHandlerFirstName(event) { 
+    this.setState({firstName: event.target.value});
+    // this.setState({lastName: event.target.lastName});
+    // this.setState({email: event.target.email});
+    // this.setState({telephone: event.target.telephone});
+    // this.setState({gender: event.target.gender});
+    // this.setState({studentcard: event.target.studentcard});
+    // this.setState({textarea: event.target.textarea});
   }
 
   handleSubmit(event) {
@@ -47,8 +47,8 @@ class AtelierContainer extends Component {
             color="secondary" 
             required
             type="text"
-            value={ this.firstName }
-            onChange={ this.handleChange }      
+            value={ this.state.firstName }
+            onChange={ this.changeHandlerFirstName }      
           />
           <span id="text"></span>
           <TextField className="filled_buttonlast"
