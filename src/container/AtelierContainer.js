@@ -47,8 +47,8 @@ class AtelierContainer extends Component {
             color="secondary" 
             required
             type="text"
-            value={ firstName }
-            onChange={ changeHandlerFirstName }      
+            value={ this.firstName }
+            onChange={ this.handleChange }      
           />
           <span id="text"></span>
           <TextField className="filled_buttonlast"
@@ -58,8 +58,8 @@ class AtelierContainer extends Component {
             color="secondary"
             required
             type="text"
-            value={ lastName }
-            onChange={ changeHandlerLastName }      
+            value={ this.lastName }
+            onChange={ this.handleChange }      
           />
           <TextField className="filled_buttonemail"
             id="email"
@@ -69,8 +69,8 @@ class AtelierContainer extends Component {
             required
             type="email"
             placeholder="mail@serveur.com"
-            value={ email }
-            onChange={ changeHandlerEmail }      
+            value={ this.email }
+            onChange={ this.handleChange }      
           />
           <TextField className="filled_buttontelephone"
             id="telephone"
@@ -79,8 +79,8 @@ class AtelierContainer extends Component {
             color="secondary"
             type="tel"
             pattern="[0-9]{10}"
-            value={ telephone }
-            onChange={ changeHandlerTelephone }  
+            value={ this.telephone }
+            onChange={ this.handleChange }  
           />
           <TextField className="filled_buttonstudentcard"
             id="student_card"
@@ -88,12 +88,12 @@ class AtelierContainer extends Component {
             variant="filled"
             color="secondary"
             type="text"
-            value={ studentcard }
-            onChange={ changeHandlerStudentcard }  
+            value={ this.studentcard }
+            onChange={ this.handleChange }  
           />
           <FormControl component="fieldset" className="gender_position">
             <FormLabel component="legend" className="title_gender">Genre</FormLabel>
-            <RadioGroup aria-label="gender" name="gender1" value={ gender } onChange={ changeHandlerGender }>
+            <RadioGroup aria-label="gender" name="gender1" value={ this.gender } onChange={ this.handleChange }>
               <FormControlLabel value="male" control={<Radio />} label="Homme" />
               <FormControlLabel value="female" control={<Radio />} label="Femme" />
             </RadioGroup>
@@ -105,8 +105,8 @@ class AtelierContainer extends Component {
           rows= { 10 }
           variant="filled"
           color="secondary"
-          value={ textarea } 
-          onChange={ changeHandlerTextarea }
+          value={ this.textarea } 
+          onChange={ this.handleChange }
           />
           <Button
             variant="contained"
