@@ -123,8 +123,6 @@ class AtelierContainer extends Component {
       </form>
     );
   }
-
-
-
-
 }
+
+export default AtelierContainer;
