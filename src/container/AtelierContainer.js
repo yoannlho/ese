@@ -27,12 +27,24 @@ class AtelierContainer extends Component {
   }
   changeHandlerFirstName(event) { 
     this.setState({firstName: event.target.value});
-    // this.setState({lastName: event.target.lastName});
-    // this.setState({email: event.target.email});
-    // this.setState({telephone: event.target.telephone});
-    // this.setState({gender: event.target.gender});
-    // this.setState({studentcard: event.target.studentcard});
-    // this.setState({textarea: event.target.textarea});
+  }
+  changeHandlerLastName(event) {
+    this.setState({lastName: event.target.value});
+  }
+  changeHandlerEmail(event) {
+    this.setState({email: event.target.value});
+  }
+  changeHandlerTelephone(event) {
+    this.setState({telephone: event.target.value});
+  }
+  changeHandlerGender(event) {
+    this.setState({gender: event.target.value});
+  }
+  changeHandlerStudentcard(event) {
+    this.setState({studentcard: event.target.value});
+  }
+  changeHandlerTextarea(event) {
+    this.setState({textarea: event.target.value});
   }
 
   handleSubmit(event) {
