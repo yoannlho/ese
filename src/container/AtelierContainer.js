@@ -55,6 +55,15 @@ class AtelierContainer extends Component {
     alert('Le genre a été soumis : ' + this.state.gender);
     alert('Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard);
     alert('La zone de texte a été soumis : ' + this.state.textarea);
+
+    var result = Array('Le prénom a été soumis : ' + this.state.firstName, 
+    'Le nom de famille a été soumis : ' + this.state.lastName,
+    'L email a été soumis : ' + this.state.email,
+    'Le téléphone a été soumis : ' + this.state.telephone,
+    'Le genre a été soumis : ' + this.state.gender,
+    'Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard,
+    'La zone de texte a été soumis : ' + this.state.textarea)
+    document.getElementById("text").innerHTML = result
     event.preventDefault();
   }
   render() {
@@ -74,7 +83,6 @@ class AtelierContainer extends Component {
             value={ this.firstName }
             onChange={ this.changeHandlerFirstName }      
           />
-          <span id="text"></span>
           <TextField className="filled_buttonlast"
             id="last_name"
             label="Nom"
@@ -132,6 +140,7 @@ class AtelierContainer extends Component {
           value={ this.textarea } 
           onChange={ this.changeHandlerTextarea }
           />
+          <span id="text"></span>
           <Button
             variant="contained"
             color="primary"
