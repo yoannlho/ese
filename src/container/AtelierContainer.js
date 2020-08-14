@@ -56,15 +56,43 @@ class AtelierContainer extends Component {
     alert('Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard);
     alert('La zone de texte a été soumis : ' + this.state.textarea);
 
-    var result = Array('Le prénom a été soumis : ' + this.state.firstName, 
-    'Le nom de famille a été soumis : ' + this.state.lastName,
-    'L email a été soumis : ' + this.state.email,
-    'Le téléphone a été soumis : ' + this.state.telephone,
-    'Le genre a été soumis : ' + this.state.gender,
-    'Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard,
-    'La zone de texte a été soumis : ' + this.state.textarea)
-    document.getElementById("text").innerHTML = result
-    event.preventDefault();
+    //var result = Array('Le prénom a été soumis : ' + this.state.firstName, 
+    // 'Le nom de famille a été soumis : ' + this.state.lastName,
+    // 'L email a été soumis : ' + this.state.email,
+    // 'Le téléphone a été soumis : ' + this.state.telephone,
+    // 'Le genre a été soumis : ' + this.state.gender,
+    // 'Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard,
+    // 'La zone de texte a été soumis : ' + this.state.textarea)
+    // document.getElementById("text").innerHTML = result
+    // event.preventDefault();
+
+      // tableau = new Array(x)
+      // tableau[i] = this.state.firstName, this.state.lastName, this.state.email, this.state.telephone, this.state.gender, this.state.studentcard, this.state.textarea
+      // console.log(tableau)
+      // var result = Array()
+      // document.getElementById("text").innerHTML = result
+      // event.preventDefault();
+
+      let x = 0;
+      const array = Array();
+
+      function add_element_to_array() {
+        array[x] = document.getElementById("first_name").value;
+        alert(`Element: ${array[x]} Added at index ${x}`);
+        x++;
+        document.getElementById("first_name").value = "";
+      }
+
+      function display_array() {
+        var e = "<hr/>";   
+    
+        for (var y=0; y<array.length; y++) {
+          e += "Element " + y + " = " + array[y] + "<br/>";
+        }
+        document.getElementById("Result").innerHTML = e;
+      }
+
+
   }
   render() {
     return (
@@ -140,8 +168,10 @@ class AtelierContainer extends Component {
           value={ this.textarea } 
           onChange={ this.changeHandlerTextarea }
           />
-          <span id="text"></span>
+          <span id="Result"></span>
           <Button
+            onClick="add_element_to_array();"
+            onClick="display_array();"
             variant="contained"
             color="primary"
             type="submit"
