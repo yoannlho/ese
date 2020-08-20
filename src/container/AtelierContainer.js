@@ -55,6 +55,15 @@ class AtelierContainer extends Component {
     alert('Le genre a été soumis : ' + this.state.gender);
     alert('Le numéro de carte d étudiant a été soumis : ' + this.state.studentcard);
     alert('La zone de texte a été soumis : ' + this.state.textarea);
+
+    var storeArray = [];
+    var tableau = [this.state.firstName, this.state.lastName, this.state.email, this.state.telephone, this.state.gender, this.state.studentcard, this.state.textarea]
+    for (var i = 0; i < tableau.length; i++) {
+      console.log(i);
+    }
+    storeArray.push(tableau);
+    document.getElementById("text").innerHTML = storeArray
+    event.preventDefault();
   }
 
   render() {
