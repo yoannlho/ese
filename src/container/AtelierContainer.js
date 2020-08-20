@@ -57,7 +57,16 @@ class AtelierContainer extends Component {
     alert('La zone de texte a été soumis : ' + this.state.textarea);
 
     var storeArray = [];
-    var tableau = [this.state.firstName, this.state.lastName, this.state.email, this.state.telephone, this.state.gender, this.state.studentcard, this.state.textarea]
+    var objet = {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      email: this.state.email,
+      telephone: this.state.telephone,
+      gender: this.state.gender,
+      studentcard: this.state.studentcard,
+      textarea: this.state.textarea
+    };
+    var tableau = [objet.firstName, objet.lastName, objet.email, objet.telephone, objet.gender, objet.studentcard, objet.textarea]
     for (var i = 0; i < tableau.length; i++) {
       console.log(i);
     }
