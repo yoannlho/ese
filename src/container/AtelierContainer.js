@@ -151,8 +151,6 @@ class AtelierContainer extends Component {
           />
           <span id="text"></span>
           <Button
-            onClick="add_element_to_array();"
-            onClick="display_array();"
             variant="contained"
             color="primary"
             type="submit"
