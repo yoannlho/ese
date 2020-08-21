@@ -150,18 +150,20 @@ class AtelierContainer extends Component {
           onChange={ this.changeHandlerTextarea }
           />
           <span id="text"></span>
-          <Button
-            variant="contained"
-            color="primary"
-            type="submit"
-            className="button_position"
-            //label="envoyer"
-            endIcon={<SendIcon />}
+          <Link to="/Display">
+            <Button
+              variant="contained"
+              color="primary"
+              type="submit"
+              className="button_position"
+              //label="envoyer"
+              endIcon={<SendIcon />}
          
-            >
-                Envoyer
+              >
+                  Envoyer
           
-          </Button>
+            </Button>
+          </Link>
       </form>
     );
   }
