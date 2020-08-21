@@ -20,6 +20,7 @@ function App() {
               <Route exact path="/Atelier" component={ Atelier }/>
               <Route exact path="/Intervenant" component={ Intervenant }/>
               <Route exact path="/Contacts" component={ Contacts }/>
+              <Route exact path="/Display" component={ Display }/>
               <Route component={ Error404 }/>
           </Switch>
         </header>
