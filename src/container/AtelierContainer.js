@@ -151,8 +151,10 @@ class AtelierContainer extends Component {
           onChange={ this.changeHandlerTextarea }
           />
           <span id="text"></span>
-          <Link to="/Display">
             <Button
+            onClick={() => {
+              window.location = "http://localhost:3000/Display";
+            }}
               variant="contained"
               color="primary"
               type="submit"
@@ -164,7 +166,6 @@ class AtelierContainer extends Component {
                   Envoyer
           
             </Button>
-          </Link>
       </form>
     );
   }
