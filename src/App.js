@@ -6,6 +6,7 @@ import Atelier from './components/Atelier';
 import './App.css';
 import Intervenant from './components/Intervenant';
 import Contacts from './components/Contacts';
+import Display from './components/Display';
 import NavBardyn from './components/navBar/NavBardyn';
 import AppStyle from './App.css';
 
