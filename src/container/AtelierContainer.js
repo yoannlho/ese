@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { TextField, Button, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio} from '@material-ui/core';
 import '../components/filecss/AtelierStyle.css';
 import SendIcon from '@material-ui/icons/Send';
-import { Link } from "react-router-dom";
 
 class AtelierContainer extends Component {
   constructor(props) {
@@ -151,21 +150,20 @@ class AtelierContainer extends Component {
           onChange={ this.changeHandlerTextarea }
           />
           <span id="text"></span>
-            <Button
-            onClick={() => {
-              window.location = "http://localhost:3000/Display";
-            }}
-              variant="contained"
-              color="primary"
-              type="submit"
-              className="button_position"
-              //label="envoyer"
-              endIcon={<SendIcon />}
+          <Button
+          onClick={() => {
+            window.location = "http://localhost:3000/Display";
+          }}
+            variant="contained"
+            color="primary"
+            type="submit"
+            className="button_position"
+            //label="envoyer"
+            endIcon={<SendIcon />}
          
-              >
-                  Envoyer
-          
-            </Button>
+            >
+              Envoyer
+          </Button>
       </form>
     );
   }
