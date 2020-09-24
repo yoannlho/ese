@@ -151,9 +151,9 @@ class AtelierContainer extends Component {
           />
           <span id="text"></span>
           <Button
-          onClick={() => {
-            window.location = "http://localhost:3000/Display";
-          }}
+          // onClick={() => {
+          //   window.location = "http://localhost:3000/Display";
+          // }}
             variant="contained"
             color="primary"
             type="submit"
